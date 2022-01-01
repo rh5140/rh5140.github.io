@@ -11,7 +11,8 @@ function InfoCard(props) {
     return (
         <div className={card}>
             <div className={cardImage}>
-                <img src={PFP} alt="Ray Hsiao"></img>
+                <img src={PFP} alt="Ray Hsiao" className={cardImage}></img>
+                {/* (=^･ω･^=) */}
             </div>
             <div className={cardText}>
                 <h2 className={cardTitle}>Hello!</h2>
@@ -23,8 +24,23 @@ function InfoCard(props) {
                 </p>
 
                 <p>
-                    For relevant links, refer to my other incomplete site at <a href="https://rh5140.github.io/temp-site">rh5140.github.io/temp-site</a>!
+                    See relevant links below:
                 </p>
+
+                <div className="navbar">
+                    <a href="https://www.linkedin.com/in/rayhsiao/"><button>
+                        LinkedIn
+                    </button></a>
+                    <a href="https://www.github.com/rh5140/"><button>
+                        GitHub
+                    </button></a>
+                    <a href="https://raddishradish.itch.io/"><button>
+                        Gamedev
+                    </button></a>
+                    <a href="https://www.instagram.com/raddishradish/"><button>
+                        Art
+                    </button></a>
+                </div>
             </div>
         </div>
     )

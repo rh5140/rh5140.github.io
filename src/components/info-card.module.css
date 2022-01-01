@@ -1,14 +1,34 @@
-.card {
-    display: grid;
-    grid-template-columns: .5fr .5fr;
-    grid-template-areas: "image" "desc";
+/* TEMPORARY BUTTON STUFF */
+button{
+    color: whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: transparent;
     border-style: solid;
-    border-color: whitesmoke;
-    border-radius: 10px;
-    border-width: medium;
+    transition-duration: 0.2s;
+    font-size: larger;
 }
-.card:hover {
-    border-color: rgb(100, 255, 255);
+
+button:hover{
+    border-color:whitesmoke;
+}
+
+/* still need to fix mobile :( */
+/* tablet/computer scren */
+@media only screen and (min-width: 640px) {
+
+    .card {
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+        grid-template-areas: "image" "desc";
+        border-style: solid;
+        border-color: whitesmoke;
+        border-radius: 10px;
+        border-width: medium;
+    }
+    .card:hover {
+        border-color: rgb(100, 255, 255);
+    }
 }
 
 .card-image {
@@ -20,8 +40,9 @@
 }
 
 img {
-    width: calc(500px + 2vh);
-    height: calc(500px + 2vh);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .card-text {
