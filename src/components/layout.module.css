@@ -1,0 +1,72 @@
+/* General styling */
+body {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    color:whitesmoke;
+    transition-duration: 1s;
+}
+a:hover {
+    color: rgb(100, 255, 255);
+}
+
+/****************************/
+/* Layout component styling */
+/****************************/
+.container {
+    margin: auto;
+    max-width: 75%;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: rgb(100, 255, 255);
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.heading {
+color: rgb(100, 255, 255);
+}
+
+/* Navlink styling */
+/* NOTE: contents aren't centered properly :( */
+.nav-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+/* I'm not using nav-link-text now, but keeping in case things change in the future */
+.nav-link-text {
+    color: whitesmoke;
+}
+.nav-link-text:hover {
+    color: whitesmoke;
+}
+
+.link-button {
+    color: whitesmoke;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    width: 150px;
+    font-size: large;
+}
+.link-button:hover {
+    border-color: whitesmoke;
+}
