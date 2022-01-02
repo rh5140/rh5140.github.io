@@ -8,17 +8,19 @@ import PFP from '../images/PFP.jpg'
 const stringSpan = 
 <span> 
   <p>I'm Ray Hsiao (any pronouns), a second year computer science student at <a href="https://ucla.edu/">UCLA</a>, 
-    where I'm an officer for <a href="https://www.uclaacm.com/committees#studio/">ACM Game Studio</a>  and violist in the <a href="http://gmeatucla.com/">Game Music Ensemble</a>.</p>
+    where I'm an officer for <a href="https://www.uclaacm.com/committees#studio/">ACM Game Studio</a>, UCLA's student-run game development club,
+     and violist in the <a href="http://gmeatucla.com/">Game Music Ensemble</a>.</p>
 
+  <p>Besides video games, I'm interested in exploring other areas where I can reconcile the technical skills I gain pursuing my degree with my longstanding interest in art and other creative forms of expression!</p>
+
+  <p>Some other things I like include distance running, long walks, observing and photographing animals, reading, and getting lost on campus.</p>
 
 </span>
-
-const cardTitle = "Hello!"
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="About">
-      <InfoCard image={PFP} text={stringSpan} title={cardTitle}></InfoCard>
+      <InfoCard image={PFP} alt="Smiling Asian person with long hair, glasses, and pink puffer jacket against a background of trees reflected in water." text={stringSpan} title="Hello!"></InfoCard>
     </Layout>
   )
 }
