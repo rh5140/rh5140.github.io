@@ -7,7 +7,7 @@ import PFP from '../images/PFP.jpg'
 // from https://stackoverflow.com/questions/23616226/insert-html-with-react-variable-statements-jsx
 const stringSpan = 
 <span> 
-  <p>I'm Ray Hsiao (any pronouns), a second year computer science student at <a href="https://ucla.edu/">UCLA</a>, 
+  <p>I'm Ray Hsiao (pronounced like "shout" without the "t"), a second year computer science student at <a href="https://ucla.edu/">UCLA</a>, 
     where I'm an officer for <a href="https://www.uclaacm.com/committees#studio/">ACM Game Studio</a>, UCLA's student-run game development club,
      and violist in the <a href="http://gmeatucla.com/">Game Music Ensemble</a>.</p>
 
