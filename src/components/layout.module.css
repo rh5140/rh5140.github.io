@@ -71,3 +71,8 @@ color: rgb(100, 255, 255);
 .link-button:hover {
     border-color: whitesmoke;
 }
+/* NOT RIGHT, this only works when held down, want to change color on click */
+.link-button:active {
+    border-color:rgb(100, 255, 255);
+    color:rgb(100, 255, 255);
+}

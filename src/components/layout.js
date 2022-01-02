@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import {
             container,
             siteTitle,
@@ -11,7 +11,7 @@ import {
             linkButton
                             } from './layout.module.css'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, children }) => {    
   return (
     <div className={container}>
         {/* Get rid of hardcoding later :) */}
