@@ -11,7 +11,7 @@ const WebsiteAlt = "(=^･ω･^=) no image necessary since you're looking at it
 const WebsiteSpan =
 <span>
   My personal website built for fun using <a href="https://www.gatsbyjs.com/">Gatsby framework</a>, to be updated periodically. Not yet optimized for mobile.
-  <p>The site is currently accessible at <a href="https://rh5140.github.io">rh5140.github.io</a> or <a href="https://rayhsiao.gatsbyjs.io">rayhsiao.gatsbyjs.io</a> and the source code can be found on the <a href="https://github.com/rh5140/rh5140.github.io">GitHub repo</a>.</p>
+  <p>The site is currently accessible at <a href="https://rh5140.github.io">rh5140.github.io</a> and the source code can be found on the <a href="https://github.com/rh5140/rh5140.github.io">GitHub repo</a>. <a href="https://rayhsiao.gatsbyjs.io">rayhsiao.gatsbyjs.io</a> is behind right now because importing images is causing errors for some reason I haven't figured out yet.</p>
 </span>
 
 const wen2eatSpan = 
