@@ -69,6 +69,7 @@ color: rgb(100, 255, 255);
     font-size: large;
 }
 .link-button:hover {
+    cursor: pointer;
     border-color: whitesmoke;
 }
 /* NOT RIGHT, this only works when held down, want to change color on click */
