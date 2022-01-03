@@ -3,10 +3,9 @@ import Layout from '../components/layout'
 import InfoCard from '../components/info-card'
 import GrabbScreenshot from '../images/GrabbScreenshot.png'
 
-// Write more detailed alt text
 const GrabbSpan = 
 <span>
-  <p>An aim-and-shoot game developed solo in about two weeks over winter break.</p>
+  An aim-and-shoot game developed solo in about two weeks over winter break 2021.
 
   <p>Since I had only worked on games in teams before and primarily on art, I challenged myself to solo making a game so I could familiarize myself with game development more holistically.
     I prototyped and implemented game mechanics and a text parser in C#, illustrated in Adobe Photoshop, and composed <a href="https://musescore.com/user/39562343/scores/7325780/s/kd3eSL">main menu</a> and <a href="https://musescore.com/user/39562343/scores/7325804/s/s3T9Qs">background</a> music in MuseScore.</p>
@@ -18,7 +17,7 @@ const GrabbAlt = "Screenshot of game with chameleon sitting on a branch with a c
 
 const BreadySpan = 
 <span>
-  <p>A boss battle game developed with a team of eight for <a href="https://itch.io/jam/studiosnowjam">ACM Studio Snowjam 2021</a>. Revamp of <a href="https://aaisara12.itch.io/mundaydreaming">mundaydreaming</a>, from which we reused art assets and my <a href="https://musescore.com/user/39562343/scores/7325906/s/HwmVT8">background music</a>.</p>
+  A boss battle game developed with a team of eight for <a href="https://itch.io/jam/studiosnowjam">ACM Studio Snowjam 2021</a>. Revamp of <a href="https://aaisara12.itch.io/mundaydreaming">mundaydreaming</a>, from which we reused art assets and my <a href="https://musescore.com/user/39562343/scores/7325906/s/HwmVT8">background music</a>.
 
   <p>I delegated responsibilities and coordinated the artistic side of the game.
      I worked a little bit on the UI layout and drew the toaster boss, bread, miscellaneous art assets used in the UI, and the dialogue box in Adobe Photoshop.
@@ -31,8 +30,8 @@ const BreadyAlt = "Screenshot of game with man in office attire running and poin
 
 const CrankySpan = 
 <span>
-  <p>A walking simulator developed with a team of seven for <a href="https://itch.io/c/1740469/reverse-game-jam-summer-2021-less-is-more">ACM Studio Reverse Game Jam</a> during summer 2021, 
-  in which developers took on roles they were unfamiliar with.</p>
+  A walking simulator developed with a team of seven for <a href="https://itch.io/c/1740469/reverse-game-jam-summer-2021-less-is-more">ACM Studio Reverse Game Jam</a> during Summer 2021, 
+  in which developers took on roles they were unfamiliar with.
 
   <p>At this point in time, I had only participated in game development as an artist, so I was assigned to be a programmer.
     I did program a basic dialogue manager and text parser in C#, but I ended up primarily taking on the role of the writer and designer,  
@@ -55,7 +54,7 @@ const CrankyAlt = "Three black and white drawings of an old man wearing a newsbo
 
 const SpaceSpan = 
 <span>
-  <p>A romance visual novel developed with a team of eight under Sondering Studio.</p>
+  A romance visual novel developed with a team of eight under Sondering Studio.
 
   <p>I joined The Space in Between team from September 2020 to January 2021 to help market the game having no prior marketing experience, especially not for shipping a game. 
     I made the press release (linked in the <a href="https://alanguan98.github.io/The-Space-In-Between/">press kit</a>) and contacted gaming websites and publications, resulting in seven external reviews.
@@ -70,7 +69,7 @@ const SpaceAlt = "A long-haired Asian girl looking at a constellation she holds 
 
 const RamenSpan = 
 <span>
-<p>A visual novel developed with a team of six for <a href="https://itch.io/c/1740406/summer-game-jam-2020-past-present-and-future">ACM Studio's Summer Game Jam 2020</a>.</p>
+A visual novel developed with a team of six for <a href="https://itch.io/c/1740406/summer-game-jam-2020-past-present-and-future">ACM Studio's Summer Game Jam 2020</a>.
 
 <p>This was the first game I ever worked on, and I enjoyed the collaborative development process so much I committed to joining ACM Studio as a result! 
   I designed two characters and made 25 pixel art pieces (<a href="https://raddishradish.artstation.com/projects/oA9JeJ">highlights here</a>).
@@ -85,7 +84,7 @@ const RamenAlt = "A pixel drawing of an Asian ramen chef in front of a menu and 
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Game development">
-      <p>Check out all the games I've worked on my <a href="https://raddishradish.itch.io/">itch.io</a> (raddishradish)!</p>
+      <p>For a comprehensive list of games I've worked on, refer to my <a href="https://raddishradish.itch.io/">itch.io page</a> (raddishradish)!</p>
       <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
       <p></p>
       <InfoCard image="https://img.itch.zone/aW1hZ2UvMTMyMjQ1Ny83NjkwMTM5LnBuZw==/original/g6FMif.png" alt={BreadyAlt} text={BreadySpan} title="Bready or Not!"></InfoCard>
