@@ -1,7 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import InfoCard from '../components/info-card'
-
 import wen2eatScreenshot from '../images/wen2eatScreenshot.jpg'
 import wen2eatFigma from '../images/wen2eatFigma.jpg'
 import TenantsWireframe from '../images/TenantsWireframe.jpg'
