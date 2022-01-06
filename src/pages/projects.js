@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import InfoCard from '../components/info-card'
-import wen2eatScreenshot from '../images/wen2eatScreenshot.jpg'
+// import wen2eatScreenshot from '../images/wen2eatScreenshot.jpg'
 // import wen2eatFigma from '../images/wen2eatFigma.jpg'
-import TenantsWireframe from '../images/TenantsWireframe.jpg'
+// import TenantsWireframe from '../images/TenantsWireframe.jpg'
 
 const TenantsScreenshot = "https://user-images.githubusercontent.com/40257341/121583382-07c55a00-c9e5-11eb-8e38-63309b61b18a.png"
 
@@ -11,7 +11,7 @@ const WebsiteAlt = "(=^･ω･^=) no image necessary since you're looking at it
 const WebsiteSpan =
 <span>
   My personal website built for fun using <a href="https://www.gatsbyjs.com/">Gatsby framework</a>, to be updated periodically. Not yet optimized for mobile.
-  <p>The site is currently accessible at <a href="https://rh5140.github.io">rh5140.github.io</a> and the source code can be found on the <a href="https://github.com/rh5140/rh5140.github.io">GitHub repo</a>. <a href="https://rayhsiao.gatsbyjs.io">rayhsiao.gatsbyjs.io</a> is behind right now because importing images is causing errors for some reason I haven't figured out yet.</p>
+  <p>The site is currently accessible at <a href="https://rh5140.github.io">rh5140.github.io</a> or <a href="https://rayhsiao.gatsbyjs.io">rayhsiao.gatsbyjs.io</a> and the source code can be found on the <a href="https://github.com/rh5140/rh5140.github.io">GitHub repo</a>. </p>
 </span>
 
 const wen2eatSpan = 
@@ -55,7 +55,7 @@ const ProjectsPage = () => {
       <p>Sometimes I work on stuff other than games.</p>
       <InfoCard alt={WebsiteAlt} text={WebsiteSpan} title={"Ray Hsiao's website"}></InfoCard>
       <p></p>
-      <InfoCard image={wen2eatScreenshot} alt={wen2eatAlt} text={wen2eatSpan} title="wen2eat"></InfoCard>
+      <InfoCard image="https://rh5140.github.io/static/wen2eatScreenshot-cf3d0cebbb15333235aa18418abbfa39.jpg" alt={wen2eatAlt} text={wen2eatSpan} title="wen2eat"></InfoCard>
       <p></p>
       <InfoCard image={TenantsScreenshot} alt={TenantsAlt} text={TenantsSpan} title="Tenants' Rights Mapping Project"></InfoCard>
       <p></p>
