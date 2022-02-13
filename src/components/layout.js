@@ -42,9 +42,13 @@ const Layout = ({ pageTitle, children }) => {
             </ul>
         </nav>
         <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
+            <h1 className={heading}>{pageTitle}</h1>
+            {children}
+        </main>
+        <footer>
+            <p></p>
+            rjchsiao at g.ucla.edu | <a href="https://github.com/rh5140/">GitHub</a> | <a href="https://linkedin.com/in/rayhsiao">LinkedIn</a>
+        </footer>
     </div>
   )
 }
