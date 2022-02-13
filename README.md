@@ -4,4 +4,4 @@ Ray Hsiao's personal website built using [Gatsby framework](https://www.gatsbyjs
 ## Notes to self
 Run `gatsby develop` to start the local development server http://localhost:8000/
 
-Run `gatsby deploy` to deploy
+Run `npm run deploy` to deploy
