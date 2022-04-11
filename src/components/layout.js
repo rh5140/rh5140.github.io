@@ -39,6 +39,9 @@ const Layout = ({ pageTitle, children }) => {
                         <button className={linkButton}>Art</button>
                     </Link>                    
                 </li>
+                <li className={navLinkItem}>                   
+                    <a href="https://rh5140.github.io/markdown-cv/"><button className={linkButton}>Resume</button></a>              
+                </li>
             </ul>
         </nav>
         <main>
