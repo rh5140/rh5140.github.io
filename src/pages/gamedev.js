@@ -14,7 +14,7 @@ const DebuggerSpan =
     also checked for updates throughout the week. I assigned issues to programmers and playtested and gave feedback reviewing their pull requests. I imported art assets and implemented character animations and speaker sprites in the dialogue boxes.
   </p>
 
-  <p>Play the demo on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> and check out the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>!</p>
+  <p>Play the demo on <a href="https://raddishradish.itch.io/debugger-srs">itch.io</a> and check out the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>!</p>
 </span>
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
