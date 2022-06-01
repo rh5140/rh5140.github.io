@@ -2,18 +2,23 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import InfoCard from '../components/info-card'
 import GrabbScreenshot from '../images/GrabbScreenshot.png'
-import Flytrap from '../images/MC_Concept.png'
+import Flytrap from '../images/DebuggerTItle.png'
 
 const DebuggerSpan = 
 <span>
-  A puzzle game currently in development as part of ACM Game Studio at UCLA's Students Run Studios program, in which student developers work on an indie game throughout the winter and spring quarters.
+  A 2D puzzle game currently in development. The demo was developed with a team of 12 for ACM Game Studio at UCLA's Students Run Studios program, in which student developers work collaboratively on a game throughout the winter and spring quarters.
 
-  <p>This game is inspired by a joke my friend made about how it makes sense that I'm a computer science major if I like bugs (referring to the animals). In this game, the player captures bugs (animals) to fix "bugs" (intentional game mechanic errors). I'm leading a development team of 13 students and organizing them through Discord and GitHub Projects.</p>
+  <p>This game is inspired by a joke my friend made about how it makes sense that I'm a computer science major if I like bugs (referring to the animals). In this game, the player captures bugs (animals) to fix "bugs" (intentional game mechanic errors).</p>
 
-  <p>Check out the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>!</p>
+  <p>I act as a producer to lead, direct, manage, and motivate developers across multiple disciplines and organize them through Discord and GitHub. Over winter and spring, I held weekly meetings to check in with the entire team and overall team progress and 
+    also checked for updates throughout the week. I assigned issues to programmers and playtested and gave feedback reviewing their pull requests. I imported art assets and implemented character animations and speaker sprites in the dialogue boxes.
+  </p>
+
+  <p>Play the demo on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> and check out the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>!</p>
 </span>
 
-const FlytrapAlt = "Simple drawing of a figure in a hooded blue cloak. The figure is inspired by a Venus flytrap and has a Venus flytrap head and two little feet. The background is filled with red 1s and 0s."
+const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
+// const FlytrapAlt = "Simple drawing of a figure in a hooded blue cloak. The figure is inspired by a Venus flytrap and has a Venus flytrap head and two little feet. The background is filled with red 1s and 0s."
 
 const GrabbSpan = 
 <span>
@@ -97,7 +102,7 @@ const GamedevPage = () => {
   return (
     <Layout pageTitle="Game development">
       <p>For a comprehensive list of games I've worked on, refer to my <a href="https://raddishradish.itch.io/">itch.io page</a> (raddishradish)!</p>
-      <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger (Working Title)"></InfoCard>
+      <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger (Demo Available)"></InfoCard>
       <p></p>
       <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
       <p></p>
