@@ -27,6 +27,8 @@ const GrabbSpan =
   <p>Since I had only worked on games in teams before and primarily on art, I challenged myself to solo making a game so I could familiarize myself with game development more holistically.
     I prototyped and implemented game mechanics and a text parser in C#, illustrated in Adobe Photoshop, and composed <a href="https://musescore.com/user/39562343/scores/7325780/s/kd3eSL">main menu</a> and <a href="https://musescore.com/user/39562343/scores/7325804/s/s3T9Qs">background</a> music in MuseScore.</p>
 
+  <p>Runner-up in <a href="https://github.com/rh5140/chameleon-game">2022 "Science is Art" Competition</a> held by UCLA Science Libraries.</p>
+
   <p>Play the game on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> and check out the <a href="https://github.com/rh5140/chameleon-game">GitHub repo</a>!</p>
 </span>
 
