@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
         {/* Get rid of hardcoding later :) */}
         <title>{pageTitle} | Ray Hsiao </title>
-        <header className={siteTitle}> RHSIAO // RH5140 </header>
+        <header className={siteTitle}> Ray Hsiao // Game Designer </header>
         <nav className={navLinkContainer}>
             <ul className={navLinks}>
                 <li className={navLinkItem}>                    
@@ -26,10 +26,10 @@ const Layout = ({ pageTitle, children }) => {
                 </li>
                 <li className={navLinkItem}>                    
                         <Link to="/gamedev" className={navLinkText}>
-                        <button className={linkButton}>Gamedev</button>
+                        <button className={linkButton}>Portfolio</button>
                         </Link>                    
                 </li>
-                <li className={navLinkItem}>
+                {/* <li className={navLinkItem}>
                     <Link to="/projects" className={navLinkText}>
                         <button className={linkButton}>Other projects</button>
                     </Link>
@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, children }) => {
                     <Link to="/art" className={navLinkText}>
                         <button className={linkButton}>Art</button>
                     </Link>                    
-                </li>
+                </li> */}
                 <li className={navLinkItem}>                   
                     <a href="https://rh5140.github.io/markdown-cv/"><button className={linkButton}>Resume</button></a>              
                 </li>

@@ -55,6 +55,8 @@ img {
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
+
+    text-align: left;
 }
 
 .card-title {
