@@ -11,11 +11,12 @@ const DebuggerSpan =
 
   <p><b>Timeline:</b> Jan - May 2022 (main development), Jun - Sep 2022 (QOL updates)</p>
 
-  <p><b>Contributions:</b> Directed team of 11 developers; ideated concept and collaborated with team to develop features in alignment with game idea; designed dialogue boxes, menu layout, and UI icons</p>
+  <p><b>Contributions:</b> Directed team of 11 developers; developed game concept and design goals; tuned visuals, audio, mechanics according to design goals; designed dialogue boxes, menu layout, and UI icons</p>
 
   <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Adobe Photoshop</p>
 
-  <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p> 
+  {/* <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p>  */}
+
   <p>Play the game on <a href="https://raddishradish.itch.io/debugger">itch.io</a> and check out the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>!</p>
 </span>
 
@@ -30,8 +31,11 @@ const SMLevelSpan =
   <p><b>Contributions:</b> Researched level design practices; developed multiple iterations of design; received and incorporated feedback from peers</p>
 
   <p><b>Tools:</b> Adobe Photoshop</p>
+  
+  <p>Read more about my process <a href="https://docs.google.com/document/d/1wQE0oKLY2pD6mjGFL4YD9SzvaCnPj3llYlxRQ9mjwGk/edit">here</a></p>
 
-  <p>Read more about my process <a href="https://rh5140.github.io/supermariolevel">here</a> (in progress)</p>
+
+  {/* <p>Read more about my process <a href="https://rh5140.github.io/supermariolevel">here</a> (in progress)</p> */}
 </span>
 
 const SMLevelAlt = "A platformer level design with grey solid tiles and red lava tiles."
@@ -62,7 +66,7 @@ const CrankySpan =
 
   <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Unity Collab, Google Docs, Adobe Photoshop</p>
 
-  <p>Read more about my process <a href="https://rh5140.github.io/cranky">here</a> (in progress)</p>
+  {/* <p>Read more about my process <a href="https://rh5140.github.io/cranky">here</a> (in progress)</p> */}
   
   <p>Play the game on <a href="https://brandmuffin.itch.io/cranky">itch.io</a>!</p>
 </span>
