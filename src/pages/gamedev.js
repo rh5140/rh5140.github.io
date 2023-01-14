@@ -76,7 +76,7 @@ const CrankyAlt = "Three black and white drawings of an old man wearing a newsbo
 
 const GamedevPage = () => {
   return (
-    <Layout pageTitle="Game Design">
+    <Layout pageTitle="Portfolio">
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
