@@ -4,6 +4,24 @@ import InfoCard from '../components/info-card'
 import GrabbScreenshot from '../images/GrabbScreenshot.png'
 import Flytrap from '../images/DebuggerTItle.png'
 import SMLevelDesign from '../images/SuperMarioLevelDesign.png'
+import ScribbleRushScreenshot from '../images/ScribbleRushScreenshot.png'
+
+const ScribbleRushSpan = 
+<span>
+  A party game that has you draw a growingly complex character in thirty seconds, developed with a team of four.
+
+  <p><b>Timeline:</b> October 2022 (Ludum Dare 51 72 Hour Jam), November 2022 (polish for Independent Games Festival)</p>
+
+  <p><b>Contributions:</b> Designed game screen layouts; created art assets; developed accessible color palette based on IBM's; checked for visual inconsistencies and playtested</p>
+
+  <p><b>Tools:</b> Figma, Adobe Photoshop, <a href="https://davidmathlogic.com/colorblind/">Coloring for Colorblindness</a></p>
+
+  {/* <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p>  */}
+
+  <p>Play the game on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>!</p>
+</span>
+
+const ScribbleRushAlt = "A white screen with the text 'wicked elegant beetle' at the top; a 3-by-3 grid of wobbly squares with the colors magenta, orange, yellow, green, blue, purple, black, grey, white at the left; a drawing of a black beetle with a green horn and magenta wings framed in a wobbly black square in the middle; the number 3 enclosed in a magenta circle on the right."
 
 const DebuggerSpan = 
 <span>
@@ -77,6 +95,8 @@ const CrankyAlt = "Three black and white drawings of an old man wearing a newsbo
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
+      <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
+      <p></p>
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>

@@ -4,7 +4,6 @@ import Layout from '../components/layout'
 const SMLevelPage = () => {
   return (
     <Layout pageTitle="Super Mario Level Design">
-      // WORK IN PROGRESS
       <p>lots of references and takeaways... and lots of progress images</p>
       <p><a href="https://www.gamedeveloper.com/design/level-design-patterns-in-2d-games">Level Design Patterns in 2D Games</a> by Ahmed Khalifa, Fernando de Mesentier Silva, and Julian Togelius = guidance in design</p>
       <p>Mario 1-1 design analysis = fundamentals of mario level, teaching thru safe training</p>
