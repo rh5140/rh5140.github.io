@@ -20,12 +20,12 @@ const Layout = ({ pageTitle, children }) => {
         <nav className={navLinkContainer}>
             <ul className={navLinks}>
                 <li className={navLinkItem}>                    
-                        <Link to="/" className={navLinkText}>
-                        <button className={linkButton}>About</button>
+                        <Link to="/info" className={navLinkText}>
+                        <button className={linkButton}>Info</button>
                         </Link>                    
                 </li>
                 <li className={navLinkItem}>                    
-                        <Link to="/gamedev" className={navLinkText}>
+                        <Link to="/" className={navLinkText}>
                         <button className={linkButton}>Portfolio</button>
                         </Link>                    
                 </li>
