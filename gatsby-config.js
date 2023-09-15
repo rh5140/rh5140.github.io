@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "rh5140.github.io",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-netlify"],
 };
