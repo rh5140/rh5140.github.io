@@ -1,0 +1,37 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---src-pages-404-js-ccbad7b68c70794039f5.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.237613c7c78f8452ad89.css
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-art-js-82fb368cf2ba4d2dae51.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-cranky-js-a77edbf503d0e0a46bf8.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-debugger-js-34398f6dc63320986a48.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-gamedev-js-b40e3d6c6cfd50b4d5a8.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-f1e5a06d328bf8f86bd2.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-info-js-fc8d94493ab7212bb06e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-projects-js-52a69f67701cd83ea4e4.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-supermariolevel-js-c606149dc1d8f11c59da.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-4e0f3c9eb6e4c3332ecf.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-701cea40fb188ddcf331.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-c3fc4ffd1a56e4613ce1.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
