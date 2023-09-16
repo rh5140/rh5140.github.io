@@ -16,6 +16,8 @@ const ScribbleRushSpan =
 
   <p><b>Tools:</b> Figma, Adobe Photoshop, <a href="https://davidmathlogic.com/colorblind/">Coloring for Colorblindness</a></p>
 
+  <p><b>Team:</b> Aaron Isara, Alvin Liu, Aidan Strong</p>
+
   {/* <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p>  */}
 
   <p>Play the game on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>!</p>
@@ -32,6 +34,8 @@ const DebuggerSpan =
   <p><b>Contributions:</b> Directed team of 11 developers; developed game concept and design goals; tuned visuals, audio, mechanics according to design goals; designed dialogue boxes, menu layout, and UI icons</p>
 
   <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Adobe Photoshop</p>
+
+  <p><b>Team:</b> Alexander Chen, Aubrey Clark, Mike Han, Kevin Hong, Amber Jiang, Victoria Lam, Brad Lowe, Felix Peng, Anbu Vajuravel, Andrew Zhu, Spencer Gouw</p>
 
   {/* <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p>  */}
 
@@ -58,40 +62,6 @@ const SMLevelSpan =
 
 const SMLevelAlt = "A platformer level design with grey solid tiles and red lava tiles."
 
-const GrabbSpan = 
-<span>
-  A 2D aim-and-shoot game featuring a hungry chameleon, developed solo
-
-  <p><b>Timeline:</b> Dec 2021 (10 days)</p>
-
-  <p><b>Contributions:</b> Prototyped and implemented game mechanics and text parser in C#; illustrated in Adobe Photoshop; composed <a href="https://musescore.com/user/39562343/scores/7325780/s/kd3eSL">main menu</a> and <a href="https://musescore.com/user/39562343/scores/7325804/s/s3T9Qs">background</a> music in MuseScore</p>
-
-  <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Adobe Photoshop, MuseScore</p>
-
-  <p>Runner-up in <a href="https://github.com/rh5140/chameleon-game">2022 "Science is Art" Competition</a> held by UCLA Science Libraries</p>
-
-  <p>Play the game on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> and check out the <a href="https://github.com/rh5140/chameleon-game">GitHub repo</a>!</p>
-</span>
-
-const GrabbAlt = "Screenshot of game with chameleon sitting on a branch with a caught bug on the end of its tongue. There are six other flying bugs on screen, and two concentric pink circles represent the cursor. The top left corner reads 'Time remaining: 00:23' and the top right reads '5 of 30 caught'. The background is a light blue and green watercolor texture."
-const CrankySpan = 
-<span>
-  A comedic walking simulator about a cranky old man, developed with a team of seven
-
-  <p><b>Timeline: </b>Jul - Aug 2022 (48 hour game jam)</p>
-
-  <p><b>Contributions: </b>Wrote all dialogue; designed interactions; programmed dialogue manager and text parser</p>
-
-  <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Unity Collab, Google Docs, Adobe Photoshop</p>
-
-  {/* <p>Read more about my process <a href="https://rh5140.github.io/cranky">here</a> (in progress)</p> */}
-  
-  <p>Play the game on <a href="https://brandmuffin.itch.io/cranky">itch.io</a>!</p>
-</span>
-
-const CrankyAlt = "Three black and white drawings of an old man wearing a newsboy hat, vest over long-sleeve shirt, long pants, loafers, and holding a cane at different frames of a walking animation underneath the title 'Cranky.' on a white background."
-
-
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
@@ -100,10 +70,6 @@ const GamedevPage = () => {
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
-      <p></p>
-      <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
-      <p></p>
-      <InfoCard image="https://img.itch.zone/aW1nLzY2NDgyNDYucG5n/original/b6Aqmq.png" alt={CrankyAlt} text={CrankySpan} title="Cranky."></InfoCard>
     </Layout>
   )
 }
