@@ -6,6 +6,8 @@ import Flytrap from '../images/DebuggerTItle.png'
 import SMLevelDesign from '../images/SuperMarioLevelDesign.png'
 import ScribbleRushScreenshot from '../images/ScribbleRushScreenshot.png'
 
+// HIGHKEY I NEED TO DELETE THIS PAGE SO I DON'T CONFUSE MYSELF
+
 const ScribbleRushSpan = 
 <span>
   A party game that has you draw a growingly complex character in thirty seconds, developed with a team of four.
@@ -87,6 +89,7 @@ const GamedevPage = () => {
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
+      <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
     </Layout>
   )
 }
