@@ -1,12 +1,32 @@
 import * as React from 'react'
-import Layout from '../components/layout'
 import InfoCard from '../components/info-card'
-import GrabbScreenshot from '../images/GrabbScreenshot.png'
+import Layout from '../components/layout'
 import Flytrap from '../images/DebuggerTItle.png'
-import SMLevelDesign from '../images/SuperMarioLevelDesign.png'
+import GrabbScreenshot from '../images/GrabbScreenshot.png'
 import ScribbleRushScreenshot from '../images/ScribbleRushScreenshot.png'
+import SMLevelDesign from '../images/SuperMarioLevelDesign.png'
+import SonderingLogo from '../images/sonderinglogo.png'
 
-const ScribbleRushSpan = 
+const GoldLiningSpan =
+<span>
+  A narrative platformer featuring a Chinese American protagonist. Currently in development by <a href="https://twitter.com/sonderingstudio">Sondering Studio</a>, an indie studio partnered with Xbox.
+
+  <p><b>Timeline:</b> Jun - Sep 2023 (Level Design Contractor)</p>
+
+  <p><b>Contributions:</b> Prototyped 4 levels for narrative platformer as only level designer on team; sketched ideas for mechanics and puzzles organized in Figma and implemented in Unity; documented design intentions with annotated screenshots and playthrough videos; analyzed design and mechanics progression from other platformer games</p>
+
+  <p><b>Tools:</b> Figma, Unity, Git/Github</p>
+
+  <p><b>Team:</b> Sondering Studio (primarily worked with Emily Pitcher, Caroline Wang, Peter Sutarjo)</p>
+
+  <p>Please email me [rayhsiaodev at gmail dot com] for an NDA pass to see <a href="https://raddishradish.itch.io/summer23-contract">my work</a>.</p>
+
+  <p>Play the game on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>!</p>
+</span>
+
+const GoldLiningAlt = "The purple Sondering Studio logomark on a white background"
+
+const ScribbleRushSpan =
 <span>
   A party game that has you draw a growingly complex character in thirty seconds, developed with a team of four.
 
@@ -25,7 +45,7 @@ const ScribbleRushSpan =
 
 const ScribbleRushAlt = "A white screen with the text 'wicked elegant beetle' at the top; a 3-by-3 grid of wobbly squares with the colors magenta, orange, yellow, green, blue, purple, black, grey, white at the left; a drawing of a black beetle with a green horn and magenta wings framed in a wobbly black square in the middle; the number 3 enclosed in a magenta circle on the right."
 
-const DebuggerSpan = 
+const DebuggerSpan =
 <span>
   A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11
 
@@ -44,7 +64,7 @@ const DebuggerSpan =
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
 
-const SMLevelSpan = 
+const SMLevelSpan =
 <span>
   A 2D platformer level designed to teach the player how to wall jump, inspired by Super Mario and developed solo
 
@@ -62,7 +82,7 @@ const SMLevelSpan =
 
 const SMLevelAlt = "A platformer level design with grey solid tiles and red lava tiles."
 
-const GrabbSpan = 
+const GrabbSpan =
 <span>
   A 2D aim-and-shoot game featuring a hungry chameleon, developed solo
 
@@ -82,6 +102,8 @@ const GrabbAlt = "Screenshot of game with chameleon sitting on a branch with a c
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
+      <InfoCard image={SonderingLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
+      <p></p>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
       <p></p>
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>

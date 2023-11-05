@@ -1,5 +1,5 @@
 # [rh5140.github.io](https://rh5140.github.io/)
-Ray Hsiao's personal website built using [Gatsby framework](https://www.gatsbyjs.com/). 
+Ray Hsiao's personal website built using [Gatsby framework](https://www.gatsbyjs.com/). Cool domain that was a pain to set up: [rayhsiao.dev](https://rayhsiao.dev) (shoutout to [this Reddit post](https://www.reddit.com/r/FoundryVTT/comments/o9zz1u/setting_up_ssl_using_google_domains_not_cloud_w/))
 
 To be periodically updated. 
 

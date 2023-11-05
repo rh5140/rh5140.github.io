@@ -1,15 +1,15 @@
-import * as React from 'react'
 import { Link } from 'gatsby'
+import * as React from 'react'
 import {
-            container,
-            siteTitle,
-            heading,
-            navLinkContainer,
-            navLinks,
-            navLinkItem,
-            navLinkText,
-            linkButton
-                            } from './layout.module.css'
+    container,
+    heading,
+    linkButton,
+    navLinkContainer,
+    navLinkItem,
+    navLinkText,
+    navLinks,
+    siteTitle
+} from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {    
   return (
@@ -50,7 +50,7 @@ const Layout = ({ pageTitle, children }) => {
         </main>
         <footer>
             <p></p>
-            rjchsiao at g.ucla.edu | <a href="https://github.com/rh5140/">GitHub</a> | <a href="https://linkedin.com/in/rayhsiao">LinkedIn</a>
+            rayhsiaodev at gmail dot com | <a href="https://github.com/rh5140/">GitHub</a> | <a href="https://linkedin.com/in/rayhsiao">LinkedIn</a>
         </footer>
     </div>
   )
