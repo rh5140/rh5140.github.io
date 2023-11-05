@@ -20,8 +20,6 @@ const GoldLiningSpan =
   <p><b>Team:</b> Sondering Studio (primarily worked with Emily Pitcher, Caroline Wang, Peter Sutarjo)</p>
 
   <p>Please email me [rayhsiaodev at gmail dot com] for an NDA pass to see <a href="https://raddishradish.itch.io/summer23-contract">my work</a>.</p>
-
-  <p>Play the game on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>!</p>
 </span>
 
 const GoldLiningAlt = "The purple Sondering Studio logomark on a white background"
