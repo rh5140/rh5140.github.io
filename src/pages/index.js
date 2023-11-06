@@ -45,7 +45,7 @@ const ScribbleRushAlt = "A white screen with the text 'wicked elegant beetle' at
 
 const DebuggerSpan =
 <span>
-  A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11
+  A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11.
 
   <p><b>Timeline:</b> Jan - May 2022 (main development), Jun - Sep 2022 (QOL updates)</p>
 
@@ -64,7 +64,7 @@ const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in 
 
 const SMLevelSpan =
 <span>
-  A 2D platformer level designed to teach the player how to wall jump, inspired by Super Mario and developed solo
+  A 2D platformer level designed to teach the player how to wall jump, inspired by Super Mario and developed solo.
 
   <p><b>Timeline:</b> Jun 2022 (1 week)</p>
 
@@ -82,7 +82,7 @@ const SMLevelAlt = "A platformer level design with grey solid tiles and red lava
 
 const GrabbSpan =
 <span>
-  A 2D aim-and-shoot game featuring a hungry chameleon, developed solo
+  A 2D aim-and-shoot game featuring a hungry chameleon, developed solo.
 
   <p><b>Timeline:</b> Dec 2021 (10 days)</p>
 
