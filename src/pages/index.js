@@ -1,10 +1,10 @@
 import * as React from 'react'
 import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
-import Flytrap from '../images/DebuggerTItle.png'
-import GrabbScreenshot from '../images/GrabbScreenshot.png'
-import ScribbleRushScreenshot from '../images/ScribbleRushScreenshot.png'
 import SMLevelDesign from '../images/SuperMarioLevelDesign.png'
+import Flytrap from '../images/debugger.gif'
+import GrabbScreenshot from '../images/grabb.gif'
+import ScribbleRushScreenshot from '../images/scribble.gif'
 import SonderingLogo from '../images/sonderinglogo.png'
 
 const GoldLiningSpan =
@@ -102,15 +102,15 @@ const GrabbAlt = "Screenshot of game with chameleon sitting on a branch with a c
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
-      <h1>Professional Projects</h1>
+      <h1>Professional Work</h1>
       <InfoCard image={SonderingLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (NDA Project)"></InfoCard>
       <p></p>
-      <h1>Collaborative Projects</h1>
+      <h1>Collaborative Work</h1>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
       <p></p>
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
-      <h1>Personal Projects</h1>
+      <h1>Personal Work</h1>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
       <p></p>
       <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
