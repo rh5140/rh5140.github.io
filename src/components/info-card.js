@@ -1,10 +1,10 @@
-import * as React from 'react'
+import * as React from 'react';
 import {
-            card,
-            cardImage,
-            cardText,
-            cardTitle
-                        } from './info-card.module.css'
+    card,
+    cardImage,
+    cardText,
+    cardTitle
+} from './info-card.module.css';
 
 function InfoCard( props ) {
     return (

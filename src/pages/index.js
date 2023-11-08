@@ -105,12 +105,12 @@ const GamedevPage = () => {
       <h1>Professional Work</h1>
       <InfoCard image={SonderingLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (NDA Project)"></InfoCard>
       <p></p>
-      <h1>Collaborative Work</h1>
+      <h1>Personal Work (Collaborative)</h1>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
       <p></p>
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
-      <h1>Personal Work</h1>
+      <h1>Personal Work (Individual)</h1>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
       <p></p>
       <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
