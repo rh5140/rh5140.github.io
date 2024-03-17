@@ -61,11 +61,11 @@ const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in 
 
 const NebulosusSpan =
 <span>
-  A VR experience in which you explore a dreamy world full of sleeping animals. Keep a respectful distance from the animals -- they'll vanish into clouds if you get too close!
+  A VR experience in which you explore a dreamy world full of sleeping animals, developed solo. Keep a respectful distance from the animals -- they'll vanish into clouds if you get too close!
 
-  <p>This project was developed for (<a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a>) at UCLA, taught by Jenna Caravello.</p>
+  <p>This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a> at UCLA, taught by Jenna Caravello.</p>
 
-  <p>This was my first time working in 3D and my first time working in VR. I designed, drew, and modeled everything in the world. My friend and creative collaborator <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a> provided the music for my project.</p>
+  <p>This was my first time working in 3D, and my first time working in VR. I designed, drew, and modeled everything in the world. <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a>, my friend and creative collaborator, provided the music for my project.</p>
   
   <p><b>Timeline:</b> Jan - March 2024 (10 weeks)</p>
 
