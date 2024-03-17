@@ -3,6 +3,7 @@ import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
 import Flytrap from '../images/debugger.gif'
 import GrabbScreenshot from '../images/grabb.gif'
+import NebulosusGif from '../images/nebulosus.gif'
 import ScribbleRushScreenshot from '../images/scribble.gif'
 import SMLevelDesign from '../images/smlevel.png'
 import SonderingLogo from '../images/sonderinglogo.png'
@@ -58,6 +59,23 @@ const DebuggerSpan =
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
 
+const NebulosusSpan =
+<span>
+  A VR experience in which you explore a dreamy world full of sleeping animals. Keep a respectful distance from the animals -- they'll vanish into clouds if you get too close!
+
+  <p>This project was developed for (<a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a>) at UCLA, taught by Jenna Caravello.</p>
+
+  <p>This was my first time working in 3D and my first time working in VR. I designed, drew, and modeled everything in the world. My friend and creative collaborator <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a> provided the music for my project.</p>
+  
+  <p><b>Timeline:</b> Jan - March 2024 (10 weeks)</p>
+
+  <p><b>Tools:</b> Unity 3D, Visual Studio Code (C#), Git/Github, MediBang Paint, Blender</p>
+
+  <p>Play the game on <a href="https://raddishradish.itch.io/nebulosus-reverie">itch.io</a> and check out the <a href="https://github.com/rh5140/DMA-172">GitHub repo</a>! The project is configured for HTC Vive and Oculus, but I also uploaded WebGL, Windows, and Mac builds using a first-person controller to make the project more accessible.</p>
+</span>
+
+const NebulosusAlt = "This gif moves around in a pink, cloudy world. There is a blob-shaped tree 3D model and a 2D animation of a sleeping leopard on a cloud. As the camera moves closer to the leopard, it becomes startled, changing its animation to be alert and clouds forming around its spots. The camera moves away from the leopard."
+
 const SMLevelSpan =
 <span>
   A 2D platformer level designed to teach the player how to wall jump, inspired by Super Mario and developed solo. Platforms/walls/floor are grey and lava (which kills the player) is red. The player is the white square at the beginning, and the goal is to reach the yellow square at the end.
@@ -111,6 +129,8 @@ const GamedevPage = () => {
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <h1>Personal Work (Individual)</h1>
+      <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
+      <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
       <p></p>
       <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
