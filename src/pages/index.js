@@ -1,6 +1,8 @@
 import * as React from 'react'
 import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
+import FizzBuzzGif from '../images/FizzBuzz.gif'
+import PlateGif from '../images/Plate.gif'
 import Flytrap from '../images/debugger.gif'
 import GrabbScreenshot from '../images/grabb.gif'
 import NebulosusGif from '../images/nebulosus.gif'
@@ -59,13 +61,30 @@ const DebuggerSpan =
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
 
+const PlateSpan =
+<span>
+  A board game drawn from my own experiences as a student struggling to balance everything I need to do and entering a positive feedback loop of feeling more and more overwhelmed and stressed.  Players accumulate tokens on their character piece's plate and are punished for losing tokens by gaining more stress tokens. Sometimes, I actively choose to make tradeoffs (such as choosing to work on this project instead of picking up my medication), but other times, it feels like my mental state prevents me from making the choice I want (like when I feel too stressed to eat). To communicate this, some cards provide the player a choice while others have their effects determined by the player's number of tokens. Player points are determined by the number of tokens they have, but players must attempt a final challenge of placing their pieces on a springy step before the game concludes, which is meant to punish players who have too much on their plate.
+
+  <p>This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Sam Malabre.</p>
+
+  <p>I fabricated all of the physical elements of the projects. I spent a lot of time building staircases, painting, and making the paper spring for the middle platform.</p>
+  
+  <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
+
+  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, laser cutter, wood, cardboard, Crayola Model Magic clay, watercolor & acrylic paint</p>
+
+  <p>Class documentation page TBD.</p>
+</span>
+
+const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
+
 const NebulosusSpan =
 <span>
   A VR experience in which you explore a dreamy world full of sleeping animals, developed solo. Keep a respectful distance from the animals -- they'll vanish into clouds if you get too close!
 
   <p>This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a> at UCLA, taught by Jenna Caravello.</p>
 
-  <p>This was my first time working in 3D, and my first time working in VR. I designed, drew, and modeled everything in the world. <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a>, my friend and creative collaborator, provided the music for my project.</p>
+  <p>This was my first time working in 3D, and my first time working in VR. I designed, drew, and modeled everything in the world. I used Unity's Terrain system to raise/lower the terrain, change the terrain textures, and paint on grass and trees. <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a>, my friend and creative collaborator, provided the music for my project.</p>
   
   <p><b>Timeline:</b> Jan - March 2024 (10 weeks)</p>
 
@@ -75,6 +94,23 @@ const NebulosusSpan =
 </span>
 
 const NebulosusAlt = "This gif moves around in a pink, cloudy world. There is a blob-shaped tree 3D model and a 2D animation of a sleeping leopard on a cloud. As the camera moves closer to the leopard, it becomes startled, changing its animation to be alert and clouds forming around its spots. The camera moves away from the leopard."
+
+const FizzBuzzSpan =
+<span>
+  A character with abilities designed for a group board game.
+
+  <p>This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Sam Malabre.</p>
+
+  <p>This gecko thinks he's gifted with magical powers. Nobody has the heart to tell him the truth of his mundanity, so they play along with his antics. When Fizz Buzz falls below an energy threshold, he loses his wizard hat, and with it, the ability to cast spells (wizard cards). Fizz Buzz's spell cost can be decreased if there are character adjacent to him (believers) helping to convince him of his wizardry. The energy, believer, and threshold tokens are placed on the character sheet to track their respective quantities. The wizard hat can be removed from the character piece to show that Fizz Buzz can't cast spells.</p>
+  
+  <p><b>Timeline:</b> January - February 2024 (3 weeks)</p>
+
+  <p><b>Tools:</b> Adobe Illustrator, laser cutter, wood, watercolor</p>
+
+  <p>Class documentation page TBD.</p>
+</span>
+
+const FizzBuzzAlt = "This gif swaps between several photos. They include a wooden character piece of a yellow gecko sitting on a tree wearing a purple wizard hat. The gecko, dubbed Fizz Buzz the Wizard Lizard, has an associated character card and character information sheet, along with cards and tracker tokens."
 
 const SMLevelSpan =
 <span>
@@ -129,7 +165,11 @@ const GamedevPage = () => {
       <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
       <p></p>
       <h1>Personal Work (Individual)</h1>
+      <InfoCard image={PlateGif} alt={PlateAlt} text={PlateSpan} title="Much on My Plate"></InfoCard>
+      <p></p>
       <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
+      <p></p>
+      <InfoCard image={FizzBuzzGif} alt={FizzBuzzAlt} text={FizzBuzzSpan} title="Fizz Buzz the Wizard Lizard"></InfoCard>
       <p></p>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
       <p></p>
