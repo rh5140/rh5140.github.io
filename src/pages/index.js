@@ -71,9 +71,9 @@ const PlateSpan =
   
   <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
 
-  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, laser cutter, wood, cardboard, Crayola Model Magic clay, watercolor & acrylic paint</p>
+  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes)</p>
 
-  <p>Class documentation page TBD.</p>
+  <p>Class documentation page will be linked here once available.</p>
 </span>
 
 const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
@@ -105,9 +105,9 @@ const FizzBuzzSpan =
   
   <p><b>Timeline:</b> January - February 2024 (3 weeks)</p>
 
-  <p><b>Tools:</b> Adobe Illustrator, laser cutter, wood, watercolor</p>
+  <p><b>Tools:</b> Adobe Illustrator, physical fabrication techniques (laser cut, glued, and painted wood)</p>
 
-  <p>Class documentation page TBD.</p>
+  <p>Class documentation page will be linked here once available.</p>
 </span>
 
 const FizzBuzzAlt = "This gif swaps between several photos. They include a wooden character piece of a yellow gecko sitting on a tree wearing a purple wizard hat. The gecko, dubbed Fizz Buzz the Wizard Lizard, has an associated character card and character information sheet, along with cards and tracker tokens."
