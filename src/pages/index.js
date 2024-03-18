@@ -71,7 +71,7 @@ const PlateSpan =
   
   <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
 
-  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes)</p>
+  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes; molded and painted clay tokens)</p>
 
   <p>Class documentation page will be linked here once available.</p>
 </span>
