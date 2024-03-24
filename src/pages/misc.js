@@ -2,7 +2,6 @@ import * as React from 'react'
 import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
 import FizzBuzzGif from '../images/FizzBuzz.gif'
-import GrabbScreenshot from '../images/grabb.gif'
 import NebulosusGif from '../images/nebulosus.gif'
 import PkmnGif from '../images/pkmn_art.gif'
 
@@ -40,25 +39,6 @@ const FizzBuzzSpan =
 
 const FizzBuzzAlt = "This gif swaps between several photos. They include a wooden character piece of a yellow gecko sitting on a tree wearing a purple wizard hat. The gecko, dubbed Fizz Buzz the Wizard Lizard, has an associated character card and character information sheet, along with cards and tracker tokens."
 
-const GrabbSpan =
-<span>
-  A 2D aim-and-shoot game featuring a hungry chameleon, developed solo. To win and see a chameleon fun fact, the player must catch and eat 30 bugs in 30 seconds.
-
-  <p>I wanted to try my hand at making a game entirely by myself, so I set a time limit for myself and scoped a simple game accordingly.  Like a real chameleon, the player must wait for the tongue to retract entirely before trying to catch a bug again, which adds friction to the gameplay. To match the frenetic gameplay, I composed a simple melody that speeds up as the time limit approaches.</p>
-
-  <p><b>Timeline:</b> Dec 2021 (10 days)</p>
-
-  {/* <p><b>Contributions:</b> Prototyped and implemented game mechanics and text parser in C#; illustrated in Adobe Photoshop; composed <a href="https://musescore.com/user/39562343/scores/7325780/s/kd3eSL">main menu</a> and <a href="https://musescore.com/user/39562343/scores/7325804/s/s3T9Qs">background</a> music in MuseScore</p> */}
-
-  <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Adobe Photoshop, MuseScore</p>
-
-  <p>Runner-up in <a href="https://intersectionsinscience.wordpress.com/gallery/science-is-art-2022-collection/">2022 "Science is Art" Competition</a> held by UCLA Science Libraries</p>
-
-  <p>Play the game on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> and check out the <a href="https://github.com/rh5140/chameleon-game">GitHub repo</a>!</p>
-</span>
-
-const GrabbAlt = "Screenshot of game with chameleon sitting on a branch with a caught bug on the end of its tongue. There are six other flying bugs on screen, and two concentric pink circles represent the cursor. The top left corner reads 'Time remaining: 00:23' and the top right reads '5 of 30 caught'. The background is a light blue and green watercolor texture."
-
 const ArtSpan =
 <span>
     I have fun making art that I post under <b>radishark art</b> (Instagram:<a href="https://www.instagram.com/radishark_art">@radishark_art</a>, previously @raddishradish). I post pretty sporadically, but I mostly create fanart in the form of digital illustration. More recently, I've been trying to do simple animations and also molding air dry clay!
@@ -80,9 +60,6 @@ const MiscPage = () => {
       <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard>
       <p></p>
       <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
-      <p></p>
-      <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
-      
     </Layout>
   )
 }
