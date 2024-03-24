@@ -29,12 +29,12 @@ const Layout = ({ pageTitle, children }) => {
                         <button className={linkButton}>Portfolio</button>
                         </Link>                    
                 </li>
-                {/* <li className={navLinkItem}>
-                    <Link to="/projects" className={navLinkText}>
-                        <button className={linkButton}>Other projects</button>
+                <li className={navLinkItem}>
+                    <Link to="/misc" className={navLinkText}>
+                        <button className={linkButton}>Miscellaneous</button>
                     </Link>
                 </li>
-                <li className={navLinkItem}>                   
+                {/* <li className={navLinkItem}>                   
                     <Link to="/art" className={navLinkText}>
                         <button className={linkButton}>Art</button>
                     </Link>                    
