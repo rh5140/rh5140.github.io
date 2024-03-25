@@ -9,7 +9,7 @@ import PkmnGif from '../images/pkmn_art.gif'
 
 const NebulosusSpan =
 <span>
-  A VR experience in which you explore a dreamy world full of sleeping animals, developed solo with music by <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a>, my friend and creative collaborator. This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a> at UCLA, taught by Professor Jenna Caravello and TA Antigoni Tsagkaropoulou. Keep a respectful distance from the animals -- they'll vanish into clouds if you get too close!
+  A VR experience in which you explore a dreamy world full of sleeping animals, developed solo with music by <a href="https://www.linkedin.com/in/alvin-liu-b183b31b9">Alvin Liu</a>, my friend and creative collaborator. This project was developed for <a href="https://classes.dma.ucla.edu/Winter24/172/">Design | Media Arts 172: Virtual Reality and Worldbuilding</a> at UCLA, taught by Professor Jenna Caravello and TA Antigoni Tsagkaropoulou.
   
   <p><b>Timeline:</b> Jan - March 2024 (10 weeks)</p>
 

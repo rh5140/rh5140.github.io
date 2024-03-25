@@ -1,7 +1,7 @@
 import * as React from 'react'
 import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
-import PFP from '../images/PFP.jpg'
+import PFP from '../images/Ray_ATE.jpg'
 
 // Not sure if this is good practice :(
 // from https://stackoverflow.com/questions/23616226/insert-html-with-react-variable-statements-jsx
@@ -15,6 +15,8 @@ const stringSpan =
   <p>Games I've enjoyed playing recently include Katamari Damacy, Loop Hero, Venba, and Persona 5 Royal.</p>
 
   <p>Outside of games, some other things I like include drawing, singing and playing viola, observing and photographing animals, and reading.</p>
+
+  <p>Photography credit: <a href="https://www.instagram.com/galleriadejason">Jason Liu</a></p>
 
 </span>
 
