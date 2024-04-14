@@ -27,7 +27,7 @@ const ScribbleRushSpan =
 <span>
   A party game that has you draw a growingly complex character in thirty seconds, developed with a team of 4. After finishing a drawing, the player can check out a gallery to see what other people drew!
 
-  <p>Our goal was to make a silly, lighthearted game. I designed simple UI layouts with a playful, hand-drawn vibe and developed an <a href="https://davidmathlogic.com/colorblind/#%23DC267F-%23FF6000-%23FFB000-%2343B368-%23527EF1-%235A3FE0-%23FFFFFF-%238C8C8C-%23000000">accessible color palette</a>.</p>
+  <p>Our goal was to make a silly, lighthearted game. I designed simple <i><b>UI layouts</b></i> with a playful, hand-drawn vibe and developed an <a href="https://davidmathlogic.com/colorblind/#%23DC267F-%23FF6000-%23FFB000-%2343B368-%23527EF1-%235A3FE0-%23FFFFFF-%238C8C8C-%23000000"><i><b>accessible color palette</b></i></a>.</p>
 
   <p><b>Timeline:</b> October 2022 (Ludum Dare 51 72 Hour Jam), November 2022 (polish for Independent Games Festival)</p>
 
@@ -44,9 +44,9 @@ const DebuggerSpan =
 <span>
   A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11.
 
-  <p>My goal with the game was to convey the idea that something is wrong with the world and the player must fix it (<a href="https://docs.google.com/presentation/d/1Q8mzyRM9JT42bwIH9Ay7DveNa4E0zYMxOa9RfQx3rSw/edit#slide=id.g10a79796d10_7_11">pitch deck for initial idea</a>). I directed an interdisciplinary team of students across multiple disciplines, delegating tasks and managing scope so we could have a completed project in May.</p>
+  <p>My goal with the game was to convey the idea that something is wrong with the world and the player must fix it (<a href="https://docs.google.com/presentation/d/1Q8mzyRM9JT42bwIH9Ay7DveNa4E0zYMxOa9RfQx3rSw/edit#slide=id.g10a79796d10_7_11">pitch deck for initial idea</a>). I <i><b>directed an interdisciplinary team</b></i> of students across multiple disciplines, delegating tasks and managing scope so we could have a completed project in May.</p>
 
-  <p>I needed to make sure all aspects of development aligned with the overall creative vision. For example, the original color scheme was very bright and saturated, giving off the impression of a happy forest, so I asked the art team to darken and desaturate the colors for a darker mood. To further push the idea that catching bugs is "fixing" the world, I decided that the music should transition from sounding "glitchy" to "pure" as the player catches more bugs.</p>
+  <p>I needed to <i><b>make sure all aspects of development aligned with the overall creative vision</b></i>. For example, the original color scheme was very bright and saturated, giving off the impression of a happy forest, so I asked the art team to darken and desaturate the colors for a darker mood. To further push the idea that catching bugs is "fixing" the world, I decided that the music should transition from sounding "glitchy" to "pure" as the player catches more bugs.</p>
   
   <p>One of my team members told me the project was the most fun they had all school year, and a subset of the team was excited enough about the project that they wanted to polish it up more the following summer!</p>
 
@@ -61,7 +61,7 @@ const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in 
 
 const PlateSpan =
 <span>
-  This board game project was developed for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin. Additionally, Professor Eddo Stern advised me on the project as part of Design | Media Arts 199: Directed Research.
+  This board game project was developed solo for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin. Additionally, Professor Eddo Stern advised me on the project as part of Design | Media Arts 199: Directed Research.
 
   <p>Much on My Plate is drawn from my own experiences as a student struggling to balance everything I need to do and entering a positive feedback loop of feeling more and more overwhelmed and stressed.  Players accumulate tokens on their character piece's plate and are punished for losing tokens by gaining more stress tokens. Sometimes, I actively choose to make tradeoffs (such as choosing to work on this project instead of picking up my medication), but other times, it feels like my mental state prevents me from making the choice I want (like when I feel too stressed to eat). To communicate this, some cards provide the player a choice while others have their effects determined by the player's number of tokens. Player points are determined by the number of tokens they have, but players must attempt a final challenge of placing their pieces on a springy step before the game concludes, which is meant to punish players who have too much on their plate.</p>
 
