@@ -10,7 +10,7 @@ import SMLevelDesign from '../images/smlevel.png'
 
 const GoldLiningSpan =
 <span>
-  A narrative platformer featuring a Chinese American protagonist. Currently in development by <a href="https://twitter.com/sonderingstudio">Sondering Studio</a>, an indie studio partnered with Xbox.
+  A narrative platformer featuring a Chinese American protagonist. Currently in development by <a href="https://sonderingstudio.com/">Sondering Studio</a>, an indie studio that emphasizes telling heartfelt Asian-American stories.
 
   <p>As the <i><b>only level designer</b></i> on the team that summer, I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos.</p>
 
@@ -18,7 +18,7 @@ const GoldLiningSpan =
 
   <p><b>Tools:</b> Figma, Unity, Git/Github, Visual Studio Code (C#)</p>
 
-  <p>Wishlist Gold Lining on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>! See <a href="https://raddishradish.itch.io/summer23-contract">my work</a> on the game!</p>
+  <p>Wishlist Gold Lining on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>! See <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?usp=sharing">my work</a> on the game!</p>
 </span>
 
 const GoldLiningAlt = "The purple Sondering Studio logomark on a white background"
