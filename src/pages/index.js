@@ -3,22 +3,22 @@ import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
 import PlateGif from '../images/Plate.gif'
 import Flytrap from '../images/debugger.gif'
+import GoldLiningLogo from '../images/goldlininglogo.jpg'
 import GrabbScreenshot from '../images/grabb.gif'
 import ScribbleRushScreenshot from '../images/scribble.gif'
 import SMLevelDesign from '../images/smlevel.png'
-import SonderingLogo from '../images/sonderinglogo.png'
 
 const GoldLiningSpan =
 <span>
   A narrative platformer featuring a Chinese American protagonist. Currently in development by <a href="https://twitter.com/sonderingstudio">Sondering Studio</a>, an indie studio partnered with Xbox.
 
-  <p>As the <i><b>only level designer</b></i> on the team, I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos.</p>
+  <p>As the <i><b>only level designer</b></i> on the team that summer, I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos.</p>
 
   <p><b>Timeline:</b> Jun - Sep 2023 (Level Design Contractor)</p>
 
   <p><b>Tools:</b> Figma, Unity, Git/Github, Visual Studio Code (C#)</p>
 
-  <p>Please email me [rayhsiaodev at gmail dot com] for an NDA pass to see <a href="https://raddishradish.itch.io/summer23-contract">my work</a>. (I have received approval from my employers to share those work samples under password protection.)</p>
+  <p>Wishlist Gold Lining on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>! See <a href="https://raddishradish.itch.io/summer23-contract">my work</a> on the game!</p>
 </span>
 
 const GoldLiningAlt = "The purple Sondering Studio logomark on a white background"
@@ -32,8 +32,6 @@ const ScribbleRushSpan =
   <p><b>Timeline:</b> October 2022 (Ludum Dare 51 72 Hour Jam), November 2022 (polish for Independent Games Festival)</p>
 
   <p><b>Tools:</b> Figma, Adobe Photoshop, <a href="https://davidmathlogic.com/colorblind/">Coloring for Colorblindness</a></p>
-
-  {/* <p>Read more about my process <a href="https://rh5140.github.io/debugger">here</a> (in progress)</p>  */}
 
   <p>Play the game on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>!</p>
 </span>
@@ -71,7 +69,7 @@ const PlateSpan =
 
   <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes; molded and painted clay tokens)</p>
 
-  <p>Class documentation page will be linked here once available.</p>
+  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=3">Class documentation page</a>.</p>
 </span>
 
 const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
@@ -92,8 +90,6 @@ const SMLevelSpan =
   
   <p>Read more about my process <a href="https://docs.google.com/document/d/1wQE0oKLY2pD6mjGFL4YD9SzvaCnPj3llYlxRQ9mjwGk/edit">here</a>!</p>
 
-
-  {/* <p>Read more about my process <a href="https://rh5140.github.io/supermariolevel">here</a> (in progress)</p> */}
 </span>
 
 const SMLevelAlt = "A platformer level design with grey solid tiles and red lava tiles."
@@ -105,8 +101,6 @@ const GrabbSpan =
   <p>I wanted to try my hand at making a game entirely by myself, so I set a time limit for myself and scoped a simple game accordingly.  Like a real chameleon, the player must wait for the tongue to retract entirely before trying to catch a bug again, which adds friction to the gameplay. To match the frenetic gameplay, I composed a simple melody that speeds up as the time limit approaches.</p>
 
   <p><b>Timeline:</b> Dec 2021 (10 days)</p>
-
-  {/* <p><b>Contributions:</b> Prototyped and implemented game mechanics and text parser in C#; illustrated in Adobe Photoshop; composed <a href="https://musescore.com/user/39562343/scores/7325780/s/kd3eSL">main menu</a> and <a href="https://musescore.com/user/39562343/scores/7325804/s/s3T9Qs">background</a> music in MuseScore</p> */}
 
   <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Adobe Photoshop, MuseScore</p>
 
@@ -122,7 +116,7 @@ const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
       <h1>Professional Work</h1>
-      <InfoCard image={SonderingLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (NDA Project)"></InfoCard>
+      <InfoCard image={GoldLiningLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
       <p></p>
       <h1>Personal Work (Collaborative)</h1>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>

@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
         {/* Get rid of hardcoding later :) */}
         <title>{pageTitle} | Ray Hsiao </title>
-        <header className={siteTitle}> Ray Hsiao // Game Designer </header>
+        <header className={siteTitle}> Ray Hsiao // Technical Game Designer </header>
         <nav className={navLinkContainer}>
             <ul className={navLinks}>
                 <li className={navLinkItem}>                    

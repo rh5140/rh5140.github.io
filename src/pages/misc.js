@@ -30,7 +30,7 @@ const FizzBuzzSpan =
 
   <p><b>Tools:</b> Adobe Illustrator, physical fabrication techniques (laser cut, glued, and painted wood)</p>
 
-  <p>Class documentation page will be linked here once available.</p>
+  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=20">Class documentation page</a>.</p>
 </span>
 
 const FizzBuzzAlt = "This gif swaps between several photos. They include a wooden character piece of a yellow gecko sitting on a tree wearing a purple wizard hat. The gecko, dubbed Fizz Buzz the Wizard Lizard, has an associated character card and character information sheet, along with cards and tracker tokens."
