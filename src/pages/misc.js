@@ -6,6 +6,7 @@ import CorgoGif from '../images/174c.gif'
 import FizzBuzzGif from '../images/FizzBuzz.gif'
 import NebulosusGif from '../images/nebulosus.gif'
 import PkmnGif from '../images/pkmn_art.gif'
+import RaddishGif from '../images/radish_crop.gif'
 
 const NebulosusSpan =
 <span>
@@ -72,12 +73,27 @@ const CorgoSpan =
 
 const CorgoAlt = "A gif of a frog jumping on a mushroom in an environment of red mushrooms and frogs. It zooms in on the frog, then zooms out to see a corgi is running circles around the frog."
 
+const RaddishSpan =
+<span>
+  This clicker game was developed as our extra feature for Computer Science 130: Software Engineering, with three other students. This version I have online is mostly meant to demonstrate my contributions to the frontend and is disconnected from the backend. I designed the game elements, designed and implemented the webpage, and drew the art assets.
+
+  <p><b>Timeline:</b> May - June 2024 (1.5 weeks)</p>
+
+  <p><b>Tools:</b> JavaScript, HTML/CSS, MediBang Paint</p>
+
+  <p>Run it in your browser on this <a href="https://rh5140.github.io/raddish/">webpage</a>. The frontend display branch can be seen here <a href="https://github.com/rh5140/raddish/tree/frontend-display">on GitHub</a>.</p>
+</span>
+
+const RaddishAlt = "A gif of a clicker game featuring a large radish to click on. The buyable upgrades include cat farmer, farmer, taffy, Charlie the parrot, almond, lobster, and Powell cat."
+
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
-      <p>Here's some other stuff I've done and want to share!</p>
+      <p>Here's some other stuff I've done and want to share! You can also check out my <a href="https://raddishradish.itch.io/">itch.io page</a>.</p>
       <p></p>
       <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard>
+      <p></p>
+      <InfoCard image={RaddishGif} alt={RaddishAlt} text={RaddishSpan} title="raddish clicker!"></InfoCard>
       <p></p>
       <InfoCard image={FizzBuzzGif} alt={FizzBuzzAlt} text={FizzBuzzSpan} title="Fizz Buzz the Wizard Lizard"></InfoCard>
       <p></p>
