@@ -6,6 +6,7 @@ import CorgoGif from '../images/174c.gif'
 import FizzBuzzGif from '../images/FizzBuzz.gif'
 import NebulosusGif from '../images/nebulosus.gif'
 import PkmnGif from '../images/pkmn_art.gif'
+import PlateGif from '../images/Plate.gif'
 import RaddishGif from '../images/radish_crop.gif'
 
 const NebulosusSpan =
@@ -86,22 +87,42 @@ const RaddishSpan =
 
 const RaddishAlt = "A gif of a clicker game featuring a large radish to click on. The buyable upgrades include cat farmer, farmer, taffy, Charlie the parrot, almond, lobster, and Powell cat."
 
+const PlateSpan =
+<span>
+  This board game project was developed solo for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin. Additionally, Professor Eddo Stern advised me on the project as part of Design | Media Arts 199: Directed Research.
+
+  <p>Much on My Plate is drawn from my own experiences as a student struggling to balance everything I need to do and entering a positive feedback loop of feeling more and more overwhelmed and stressed.  Players accumulate tokens on their character piece's plate and are punished for losing tokens by gaining more stress tokens. Sometimes, I actively choose to make tradeoffs (such as choosing to work on this project instead of picking up my medication), but other times, it feels like my mental state prevents me from making the choice I want (like when I feel too stressed to eat). To communicate this, some cards provide the player a choice while others have their effects determined by the player's number of tokens. Player points are determined by the number of tokens they have, but players must attempt a final challenge of placing their pieces on a springy step before the game concludes, which is meant to punish players who have too much on their plate.</p>
+
+  <p>I fabricated all of the physical elements of the projects. I spent a lot of time building staircases, painting, and making the paper spring for the middle platform.</p>
+  
+  <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
+
+  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes; molded and painted clay tokens)</p>
+
+  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=3">Class documentation page</a>. This project was temporarily transformed into an art piece representing becoming completely overwhelmed: <a href="https://drive.google.com/file/d/1TsMWvrJxPb1QTYfpJ_MggEPiGn8N6sxq/view">I Give Up</a></p>
+</span>
+
+const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
+
+
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
       <p>Here's some other stuff I've done and want to share! You can also check out my <a href="https://raddishradish.itch.io/">itch.io page</a>.</p>
       <p></p>
-      <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard>
-      <p></p>
       <InfoCard image={RaddishGif} alt={RaddishAlt} text={RaddishSpan} title="raddish clicker!"></InfoCard>
       <p></p>
       <InfoCard image={FizzBuzzGif} alt={FizzBuzzAlt} text={FizzBuzzSpan} title="Fizz Buzz the Wizard Lizard"></InfoCard>
+      <p></p>
+      <InfoCard image={PlateGif} alt={PlateAlt} text={PlateSpan} title="Much on My Plate"></InfoCard>
       <p></p>
       <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
       <p></p>
       <InfoCard image={CorgoGif} alt={CorgoAlt} text={CorgoSpan} title="Corgo in Wonderland"></InfoCard>
       <p></p>
       <InfoCard image={RaybladesGif} alt={RaybladesAlt} text={RaybladesSpan} title="Beyblades"></InfoCard>
+      <p></p>
+      <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard>
     </Layout>
   )
 }

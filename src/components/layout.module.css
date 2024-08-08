@@ -6,11 +6,11 @@ body {
 }
 
 a {
-    color:whitesmoke;
+    color:rgb(100, 255, 255);
     transition-duration: 1s;
 }
 a:hover {
-    color: rgb(100, 255, 255);
+    color:whitesmoke;
 }
 
 /****************************/
