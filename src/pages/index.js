@@ -1,28 +1,50 @@
 import * as React from 'react'
 import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
+import PortCardLeft from '../components/port-card-left'
 import Flytrap from '../images/debugger.gif'
-import GoldLiningLogo from '../images/goldlininglogo.jpg'
+import GoldLiningWork from '../images/GoldLiningWork.png'
 import GrabbScreenshot from '../images/grabb.gif'
 import ScribbleRushScreenshot from '../images/scribble.gif'
 import SMLevelDesign from '../images/smlevel.png'
+import ToyTossTowerImage from '../images/ToyTossTower.png'
 
 const GoldLiningSpan =
 <span>
-  A narrative platformer featuring a Chinese American protagonist. Gold Lining is currently in development by <a href="https://sonderingstudio.com/">Sondering Studio</a>, an indie studio that emphasizes telling heartfelt Asian-American stories, and available to wishlist on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>.
+  <p>A narrative platformer featuring a Chinese American protagonist. Gold Lining is currently in development by <a href="https://sonderingstudio.com/">Sondering Studio</a>, an indie studio that emphasizes telling heartfelt Asian-American stories</p>
 
-  <p>As the <i><b>only level designer</b></i> on the team that summer, I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos. If you're interested in more specifics, check out this <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?usp=sharing">more detailed document of my contributions</a>.</p>
+  <p>Available to wishlist on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>.</p>
+
+  <p>I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos. If you're interested in more specifics, check out this <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?usp=sharing">more detailed document of my contributions</a>.</p>
 
   <p><b>Timeline:</b> Jun - Sep 2023 (Level Design Contractor)</p>
 
   <p><b>Tools:</b> Figma, Unity, Git/Github, Visual Studio Code (C#)</p>
 </span>
 
-const GoldLiningAlt = "The purple Sondering Studio logomark on a white background"
+const GoldLiningAlt = "Text: progressive increase in intensity: easy jumps --> timed double jumps --> double jumping will kill you, must time single jumps well. Image: Level design prototype. Text: intense setpiece as dramatic finale to this section. reuses previous double jump timing in a new context. Image: Level design prototype."
+
+const ToyTossTowerSpan =
+<span>
+  <p>A silly game in which you toss toy blocks for a minute, developed with my friend. Developed in 96 hours for GMTK Game Jam 2024: Built to Scale.</p>
+
+  <p>Available to play in browser on <a href="https://raddishradish.itch.io/toy-toss-tower">itch.io</a> (mobile recommended). See the code on the <a href="https://github.com/rh5140/towerup">GitHub repo</a>.</p>
+
+  <p>I wanted this game to focus on the the simple joy of a physics sim. I <b><i>programmed the gameplay mechanics</i></b> in C#. For the block throwing mechanic, the blocks freeze position after landing or despawn if they fall towards the player to reduce frustration. I <b><i>designed the interfaces in Figma</i></b> with mobile in mind (throwing blocks and pressing buttons can all be easily done with one thumb) then implemented them in Unity. I drew the cat playmat and wood textures in MediBang Paint and designed the itch banner/header in Figma.</p>
+
+  <p><b>Timeline:</b> August 2024 (GMTK Game Jam 2024, 96 hours)</p>
+
+  <p><b>Tools:</b> Unity 3D, Visual Studio Code (C#), Git/Github, Figma, MediBang Paint</p>
+</span>
+
+const ToyTossTowerAlt = "Two rows of images, with the top being the final version of the game and the bottom being UI mockups with early dev screenshots."
+
 
 const ScribbleRushSpan =
 <span>
-  A party game that has you draw a growingly complex character in thirty seconds, developed with a team of 4. After finishing a drawing, the player can check out a gallery to see what other people drew! Scribble Rush is available to play on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>.
+  <p>A party game that has you draw a growingly complex character in thirty seconds, developed with a team of 4. After finishing a drawing, the player can check out a gallery to see what other people drew!</p>
+
+  <p>Available to download on <a href="https://str0nkyk0ng.itch.io/scribble-rush">itch.io</a>.</p>
 
   <p>Our goal was to make a silly, lighthearted game. I designed simple <i><b>UI layouts</b></i> with a playful, hand-drawn vibe and developed an <a href="https://davidmathlogic.com/colorblind/#%23DC267F-%23FF6000-%23FFB000-%2343B368-%23527EF1-%235A3FE0-%23FFFFFF-%238C8C8C-%23000000"><i><b>accessible color palette</b></i></a>.</p>
 
@@ -35,7 +57,9 @@ const ScribbleRushAlt = "A white screen with the text 'wicked elegant beetle' at
 
 const DebuggerSpan =
 <span>
-  A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11. Debugger is available to play on <a href="https://raddishradish.itch.io/debugger">itch.io</a> with a public <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>.
+  <p>A 2D level-based puzzle game centered around the player catching bugs (animals) to fix bugs (errors) to fix the game world, developed with a team of 11.</p>
+
+  <p>Available to play in browser on <a href="https://raddishradish.itch.io/debugger">itch.io</a>. See the code on the <a href="https://github.com/rh5140/srs-team-bug">GitHub repo</a>.</p>
 
   <p>My goal with the game was to convey the idea that something is wrong with the world and the player must fix it (<a href="https://docs.google.com/presentation/d/1Q8mzyRM9JT42bwIH9Ay7DveNa4E0zYMxOa9RfQx3rSw/edit#slide=id.g10a79796d10_7_11">pitch deck for initial idea</a>). I <i><b>directed an interdisciplinary team</b></i> of students across multiple disciplines, delegating tasks and managing scope so we could have a completed project in May.</p>
 
@@ -49,23 +73,6 @@ const DebuggerSpan =
 </span>
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
-
-const PlateSpan =
-<span>
-  This board game project was developed solo for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin. Additionally, Professor Eddo Stern advised me on the project as part of Design | Media Arts 199: Directed Research.
-
-  <p>Much on My Plate is drawn from my own experiences as a student struggling to balance everything I need to do and entering a positive feedback loop of feeling more and more overwhelmed and stressed.  Players accumulate tokens on their character piece's plate and are punished for losing tokens by gaining more stress tokens. Sometimes, I actively choose to make tradeoffs (such as choosing to work on this project instead of picking up my medication), but other times, it feels like my mental state prevents me from making the choice I want (like when I feel too stressed to eat). To communicate this, some cards provide the player a choice while others have their effects determined by the player's number of tokens. Player points are determined by the number of tokens they have, but players must attempt a final challenge of placing their pieces on a springy step before the game concludes, which is meant to punish players who have too much on their plate.</p>
-
-  <p>I fabricated all of the physical elements of the projects. I spent a lot of time building staircases, painting, and making the paper spring for the middle platform.</p>
-  
-  <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
-
-  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes; molded and painted clay tokens)</p>
-
-  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=3">Class documentation page</a>. This project was temporarily transformed into an art piece representing becoming completely overwhelmed: <a href="https://drive.google.com/file/d/1TsMWvrJxPb1QTYfpJ_MggEPiGn8N6sxq/view">I Give Up</a></p>
-</span>
-
-const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
 
 const SMLevelSpan =
 <span>
@@ -88,7 +95,9 @@ const SMLevelAlt = "A platformer level design with grey solid tiles and red lava
 
 const GrabbSpan =
 <span>
-  A 2D aim-and-shoot game featuring a hungry chameleon, developed solo. To win and see a chameleon fun fact, the player must catch and eat 30 bugs in 30 seconds. Grabb Grab Grub!! is available to play on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a> with a public <a href="https://github.com/rh5140/chameleon-game">GitHub repo</a>
+  A 2D arcade game featuring a hungry chameleon, developed solo. To win and see a chameleon fun fact, the player must catch and eat 30 bugs in 30 seconds.
+
+  <p>Available to play in browser on <a href="https://raddishradish.itch.io/grabb-grab-grub">itch.io</a>. See the code on the <a href="https://github.com/rh5140/chameleon-game">GitHub repo</a></p>
 
   <p>I wanted to try my hand at making a game entirely by myself, so I set a time limit for myself and scoped a simple game accordingly.  Like a real chameleon, the player must wait for the tongue to retract entirely before trying to catch a bug again, which adds friction to the gameplay. To match the frenetic gameplay, I composed a simple melody that speeds up as the time limit approaches.</p>
 
@@ -107,17 +116,19 @@ const GamedevPage = () => {
   return (
     <Layout pageTitle="Portfolio">
       <h1>Professional Work</h1>
-      <InfoCard image={GoldLiningLogo} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
+      <InfoCard image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
       <p></p>
       <h1>Personal Work (Collaborative)</h1>
+      <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
+      <p></p>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
       <p></p>
-      <InfoCard image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></InfoCard>
+      <PortCardLeft image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></PortCardLeft>
       <p></p>
       <h1>Personal Work (Individual)</h1>
       <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
       <p></p>
-      <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
+      <PortCardLeft image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></PortCardLeft>
     </Layout>
   )
 }

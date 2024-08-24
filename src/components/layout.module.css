@@ -1,16 +1,19 @@
 /* General styling */
 body {
+    /* background-color:#1e2124;
+    // color: whitesmoke; */
     background-color:#1e2124;
     color: whitesmoke;
     text-align: center;
 }
 
 a {
-    color:rgb(100, 255, 255);
+    /* color:rgb(100, 255, 255); */
+    color: #90a6ff;
     transition-duration: 1s;
 }
 a:hover {
-    color:whitesmoke;
+    color:white;
 }
 
 /****************************/
@@ -25,13 +28,14 @@ a:hover {
 
 .site-title {
     font-size: 3rem;
-    color: rgb(100, 255, 255);
+    color: #90a6ff;
     font-weight: 700;
     margin: 3rem 0;
 }
 
 .heading {
-color: rgb(100, 255, 255);
+    color: #90a6ff;
+/* color: rgb(100, 255, 255); */
 }
 
 /* Navlink styling */
@@ -60,7 +64,7 @@ color: rgb(100, 255, 255);
 
 /* Stay changed on click would be cool :) */
 .link-button {
-    color: whitesmoke;
+    color: white;
     background-color: transparent;
     border-color: transparent;
     border-radius: 5px;
@@ -70,12 +74,12 @@ color: rgb(100, 255, 255);
 }
 .link-button:hover {
     cursor: pointer;
-    border-color: whitesmoke;
+    border-color: #90a6ff;
 }
 /* NOT RIGHT, this only works when held down, want to change color on click */
 .link-button:active {
-    border-color:rgb(100, 255, 255);
-    color:rgb(100, 255, 255);
+    border-color: #90a6ff;
+    color: #90a6ff;
 }
 
 mark {background: whitesmoke!important}
