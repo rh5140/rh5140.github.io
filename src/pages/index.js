@@ -5,6 +5,7 @@ import PortCardLeft from '../components/port-card-left'
 import Flytrap from '../images/debugger.gif'
 import GoldLiningWork from '../images/GoldLiningWork.png'
 import GrabbScreenshot from '../images/grabb.gif'
+import NWMImage from "../images/NWM_CBD.png"
 import ScribbleRushScreenshot from '../images/scribble.gif'
 import SMLevelDesign from '../images/smlevel.png'
 import ToyTossTowerImage from '../images/ToyTossTower.png'
@@ -74,6 +75,21 @@ const DebuggerSpan =
 
 const FlytrapAlt = "The graphic has a black background and the text TEAM BUG in a red pixel font, with TEAM above BUG. The BUG is part of the word DEBUGGER, the rest of which is in white. On top of the letter E sits a cloaked Venus Flytrap character. The red text below says CATCH BUGS TO FIX BUGS."
 
+const NWMSpan =
+<span>
+  A 2D platformer level in Neon World Maker featuring the push block mechanic, drop blocks, and wall jumping in which timing is crucial to avoid being struck by lasers.
+
+  <p>Available to play in <a href="https://store.epicgames.com/en-US/p/neon-world-maker-28fed7">Neon World Maker</a>. See me clear it in a <a href="https://youtu.be/qhBi3zrcFeI">playthrough video</a>.</p>
+
+  <p><b>Timeline:</b> Jun 2024 (2 days)</p>
+
+  <p><b>Tools:</b> sketching, <a href="https://store.epicgames.com/en-US/p/neon-world-maker-28fed7">Neon World Maker</a></p>
+
+  Featured level and won me a Game Design Collaboration opportunity with the development team.
+</span>
+
+const NWMAlt = "A screenshot of a level, and a sketch of a puzzle idea"
+
 const SMLevelSpan =
 <span>
   A 2D platformer level designed to teach the player how to wall jump, inspired by Super Mario and developed solo. Platforms/walls/floor are grey and lava (which kills the player) is red. The player is the white square at the beginning, and the goal is to reach the yellow square at the end.
@@ -126,9 +142,11 @@ const GamedevPage = () => {
       <PortCardLeft image={Flytrap} alt={FlytrapAlt} text={DebuggerSpan} title="Debugger"></PortCardLeft>
       <p></p>
       <h1>Personal Work (Individual)</h1>
-      <InfoCard image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></InfoCard>
+      <InfoCard image={NWMImage} alt={NWMAlt} text={NWMSpan} title="cat beams dungeon"></InfoCard>
       <p></p>
-      <PortCardLeft image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></PortCardLeft>
+      <PortCardLeft image={SMLevelDesign} alt={SMLevelAlt} text={SMLevelSpan} title="Super Mario Level Design"></PortCardLeft>
+      <p></p>
+      <InfoCard image={GrabbScreenshot} alt={GrabbAlt} text={GrabbSpan} title="Grabb Grab Grub!!"></InfoCard>
     </Layout>
   )
 }

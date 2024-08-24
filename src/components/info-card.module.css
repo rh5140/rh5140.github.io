@@ -28,7 +28,6 @@ button:hover{
         border-radius: 10px;
         border-width: 3vh;
         background-color: white;
-        padding: 4vh;
         /* transition-duration doesn't work :( */
     }
 }
@@ -41,6 +40,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     background-color: #1e2124;
+    padding: 4vh;
 }
 
 img {
