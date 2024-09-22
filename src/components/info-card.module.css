@@ -24,9 +24,9 @@ button:hover{
         color: black;
         
         border-style: solid;
-        border-color: #90a6ff;
+        border-color: rgb(142, 67, 255);
         border-radius: 10px;
-        border-width: 3vh;
+        border-width: 2vh;
         background-color: white;
         /* transition-duration doesn't work :( */
     }
@@ -63,8 +63,7 @@ img {
     
 
     a {
-        /* color:rgb(100, 255, 255); */
-        color: #6587ff;
+        color: rgb(142, 67, 255);
         transition-duration: 1s;
     }
     a:hover {

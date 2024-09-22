@@ -8,8 +8,7 @@ body {
 }
 
 a {
-    /* color:rgb(100, 255, 255); */
-    color: #90a6ff;
+    color: rgb(0, 225, 255);
     transition-duration: 1s;
 }
 a:hover {
@@ -28,13 +27,13 @@ a:hover {
 
 .site-title {
     font-size: 3rem;
-    color: #90a6ff;
+    color: rgb(0, 225, 255);
     font-weight: 700;
     margin: 3rem 0;
 }
 
 .heading {
-    color: #90a6ff;
+    color: rgb(0, 225, 255);
 /* color: rgb(100, 255, 255); */
 }
 
@@ -74,12 +73,12 @@ a:hover {
 }
 .link-button:hover {
     cursor: pointer;
-    border-color: #90a6ff;
+    border-color:rgb(142, 67, 255);
 }
 /* NOT RIGHT, this only works when held down, want to change color on click */
 .link-button:active {
-    border-color: #90a6ff;
-    color: #90a6ff;
+    border-color: rgb(142, 67, 255);
+    color: rgb(0, 225, 255);
 }
 
 mark {background: whitesmoke!important}
