@@ -67,7 +67,7 @@ img {
         transition-duration: 1s;
     }
     a:hover {
-        color:black;
+        color:rgb(0, 225, 255);
     }
 }
 
