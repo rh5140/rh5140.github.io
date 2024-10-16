@@ -5,6 +5,7 @@ import PortCardLeft from '../components/port-card-left'
 import Flytrap from '../images/debugger.gif'
 import GoldLiningWork from '../images/GoldLiningWork.png'
 import GrabbScreenshot from '../images/grabb.gif'
+import JealatinImage from '../images/JealatinSplat.gif'
 import NWMImage from "../images/NWM_CBD.png"
 import ScribbleRushScreenshot from '../images/scribble.gif'
 import SMLevelDesign from '../images/smlevel.png'
@@ -21,21 +22,43 @@ const GoldLiningSpan =
   <p><b>Timeline:</b> Jun - Sep 2023 (Level Design Contractor)</p>
 
   <p><b>Tools:</b> Figma, Unity, Git/Github, Visual Studio Code (C#)</p>
+
+  <iframe src="https://www.youtube.com/embed/loDCcur5nM8?si=FUf8uvhBvPrFqsa6&amp;start=193&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </span>
 
 const GoldLiningAlt = "Text: progressive increase in intensity: easy jumps --> timed double jumps --> double jumping will kill you, must time single jumps well. Image: Level design prototype. Text: intense setpiece as dramatic finale to this section. reuses previous double jump timing in a new context. Image: Level design prototype."
 
+const JealatinSpan =
+<span>
+  <p>A 2D puzzle game in which you play as a color-changing slime trying to escape containment, developed with my friend. Developed in 72 hours for Mini Jam 166: Earth with the limitation of "no green." Out of 211 entries, Jealatin ranked #7 for Use of the Limitation, #12 for Concept, and #17 Overall. </p>
+
+  <p>Available to play in browser on <a href="https://jabenero.itch.io/jealatin">itch.io</a>. See the code on the <a href="https://github.com/AlexanderC5/jealatin">GitHub repo</a>.</p>
+
+  <p>I designed the puzzle levels, color wheel UI, and drew the cutscenes, slime animations, fruit sprites, and color wheel UI.</p>
+
+  <p><b>Timeline:</b> September 2024 (Mini Jam 166, 72 hours) </p>
+
+  <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Figma, MediBang Paint</p>
+
+  <iframe src="https://www.youtube.com/embed/q2YIgNWWbzQ?si=zlV2xUa6M6Cu-Fuu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</span>
+
+const JealatinAlt = "A gif of a yellow slime swallowing blueberries, absorbing the blue color, turning green, and exploding."
+
+
 const ToyTossTowerSpan =
 <span>
-  <p>A silly game in which you toss toy blocks for a minute, developed with my friend. Developed in 96 hours for GMTK Game Jam 2024: Built to Scale.</p>
+  <p>A silly game in which you toss toy blocks for a minute, developed with my friend in 96 hours for GMTK Game Jam 2024: Built to Scale.</p>
 
   <p>Available to play in browser on <a href="https://raddishradish.itch.io/toy-toss-tower">itch.io</a> (mobile recommended). See the code on the <a href="https://github.com/rh5140/towerup">GitHub repo</a>.</p>
 
   <p>I wanted this game to focus on the the simple joy of a physics sim. I <b><i>programmed the gameplay mechanics</i></b> in C#. For the block throwing mechanic, the blocks freeze position after landing or despawn if they fall towards the player to reduce frustration. I <b><i>designed the interfaces in Figma</i></b> with mobile in mind (throwing blocks and pressing buttons can all be easily done with one thumb) then implemented them in Unity. I drew the cat playmat and wood textures in MediBang Paint and designed the itch banner/header in Figma.</p>
 
-  <p><b>Timeline:</b> August 2024 (GMTK Game Jam 2024, 96 hours)</p>
+  <p><b>Timeline:</b> August 2024 (GMTK Game Jam 2024, 96 hours) </p>
 
   <p><b>Tools:</b> Unity 3D, Visual Studio Code (C#), Git/Github, Figma, MediBang Paint</p>
+
+  <iframe src="https://www.youtube.com/embed/PJzpMVRs8yg?si=hOfK6-bYJQdBPQhu&amp;start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </span>
 
 const ToyTossTowerAlt = "Two rows of images, with the top being the final version of the game and the bottom being UI mockups with early dev screenshots."
@@ -79,13 +102,16 @@ const NWMSpan =
 <span>
   A 2D platformer level in Neon World Maker featuring the push block mechanic, drop blocks, and wall jumping in which timing is crucial to avoid being struck by lasers.
 
-  <p>Available to play in <a href="https://store.epicgames.com/en-US/p/neon-world-maker-28fed7">Neon World Maker</a>. See me clear it in a <a href="https://youtu.be/qhBi3zrcFeI">playthrough video</a>.</p>
+  <p>Available to play in <a href="https://store.epicgames.com/en-US/p/neon-world-maker-28fed7">Neon World Maker</a>.</p>
 
   <p><b>Timeline:</b> Jun 2024 (2 days)</p>
 
   <p><b>Tools:</b> sketching, <a href="https://store.epicgames.com/en-US/p/neon-world-maker-28fed7">Neon World Maker</a></p>
 
-  Featured level and won me a Game Design Collaboration opportunity with the development team.
+  <p>Featured level and won me a Game Design Collaboration opportunity with the development team.</p>
+
+  <iframe src="https://www.youtube.com/embed/qhBi3zrcFeI?si=YkgrOaCpsTQ3bfbS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </span>
 
 const NWMAlt = "A screenshot of a level, and a sketch of a puzzle idea"
@@ -136,6 +162,8 @@ const GamedevPage = () => {
       <p></p>
       <h1>Personal Work (Collaborative)</h1>
       <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
+      <p></p>
+      <PortCardLeft image={JealatinImage} alt={JealatinAlt} text={JealatinSpan} title="Jealatin"></PortCardLeft>
       <p></p>
       <InfoCard image={ScribbleRushScreenshot} alt={ScribbleRushAlt} text={ScribbleRushSpan} title="Scribble Rush"></InfoCard>
       <p></p>

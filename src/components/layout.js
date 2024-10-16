@@ -50,7 +50,7 @@ const Layout = ({ pageTitle, children }) => {
         </main>
         <footer>
             <p></p>
-            rayhsiaodev at gmail dot com | <a href="https://github.com/rh5140/">GitHub</a> | <a href="https://linkedin.com/in/rayhsiao">LinkedIn</a>
+            rayhsiaodev(at)gmail.com | <a href="https://github.com/rh5140/">GitHub</a> | <a href="https://linkedin.com/in/rayhsiao">LinkedIn</a>
         </footer>
     </div>
   )
