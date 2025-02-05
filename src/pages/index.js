@@ -3,6 +3,7 @@ import InfoCard from '../components/info-card'
 import Layout from '../components/layout'
 import PortCardLeft from '../components/port-card-left'
 import Flytrap from '../images/debugger.gif'
+import MeowsteriesImage from '../images/DorianScreenshot.jpg'
 import GoldLiningWork from '../images/GoldLiningWork.png'
 import GrabbScreenshot from '../images/grabb.gif'
 import JealatinImage from '../images/JealatinSplat.gif'
@@ -63,6 +64,20 @@ const ToyTossTowerSpan =
 
 const ToyTossTowerAlt = "Two rows of images, with the top being the final version of the game and the bottom being UI mockups with early dev screenshots."
 
+const MeowsteriesSpan = 
+<span>
+  <p>A heartwarming kinetic visual novel with point-and-click elements, developed with team of 7 in 1 month for GitHub Game Off 2024.</p>
+
+  <p>Available to play in browser on <a href="https://viviennelin.itch.io/meowsteries-of-tiramisu-apts">itch.io</a>. See the code on the <a href="https://github.com/rh5140/GameOff2024">GitHub repo</a>.</p>
+
+  <p>As the most experienced Unity developer on the team, I acted as a mentor for the other two programmers new to tech stack through pair programming and code reviews, empowering them to implement critical gameplay features by weekly sprint deadline. Since the game consists of multiple levels, I implemented a reusable framework for the visual novel sequences and point-and-click minigames. I wrote a step-by-step guide for how to use this framework and also documented Yarn Spinner commands for both writers and programmers to use.</p>
+
+  <p>I also flexed as a 2D artist and visual designer, designing and illustrating the characters Marie-Elle and Dorian and their respective lost items following writers' specifications. I also illustrate the main menu splash art and designed the layout of the credits screen.</p>
+
+  <p><b>Timeline:</b> November 2024 (GitHub Game Off, 1 month) </p>
+
+  <p><b>Tools:</b> Unity 2D, Visual Studio Code (C#), Git/Github, Figma, MediBang Paint</p>
+</span>
 
 const ScribbleRushSpan =
 <span>
@@ -161,6 +176,8 @@ const GamedevPage = () => {
       <InfoCard image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
       <p></p>
       <h1>Personal Work (Collaborative)</h1>
+      <PortCardLeft image={MeowsteriesImage} alt={ToyTossTowerAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></PortCardLeft>
+      <p></p>
       <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
       <p></p>
       <PortCardLeft image={JealatinImage} alt={JealatinAlt} text={JealatinSpan} title="Jealatin"></PortCardLeft>
