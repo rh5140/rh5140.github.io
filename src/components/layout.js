@@ -40,7 +40,7 @@ const Layout = ({ pageTitle, children }) => {
                     </Link>                    
                 </li> */}
                 <li className={navLinkItem}>                   
-                    <a href="https://drive.google.com/file/d/1RFdV5i6vT55XCUI5jvxVmSalVYjWq8af/view?usp=sharing"><button className={linkButton}>Resume</button></a>              
+                    <a href="https://drive.google.com/file/d/1AywhoKJyE7Q80fgQprCYgbIw7CPfCLoU/view?usp=sharing"><button className={linkButton}>Resume</button></a>              
                 </li>
             </ul>
         </nav>
