@@ -108,7 +108,6 @@ const PlateAlt = "This gif swaps between several photos of a board game. This bo
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
-      <p>Here's some other stuff I've done and want to share! You can also check out my <a href="https://raddishradish.itch.io/">itch.io page</a>.</p>
       <p></p>
       <InfoCard image={RaddishGif} alt={RaddishAlt} text={RaddishSpan} title="raddish clicker!"></InfoCard>
       <p></p>
