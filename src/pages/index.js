@@ -10,22 +10,16 @@ import ToyTossTowerImage from '../images/ToyTossTower.png'
 
 const GoldLiningSpan =
 <span>
-  <p>A narrative platformer featuring a Chinese American protagonist. Gold Lining is currently in development by <a href="https://sonderingstudio.com/">Sondering Studio</a>, an indie studio that emphasizes telling heartfelt Asian-American stories</p>
+  <p>A narrative platformer about a Chinese American protagonist finding her way home from a fantastical realm which received $100k+ in funding from Microsoft ID@Xbox and Code Coven. <i>No longer in development</i>. <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam page</a>.</p>
 
-  <p>Available to wishlist on <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam</a>.</p>
-
-  <p>I worked on 4 levels to <i><b>convey emotions and teach mechanics</b></i>. I sketched ideas for different mechanics and puzzles to get feedback on before implementing prototypes in Unity. I <i><b>documented my design intent</b></i> in detail with annotated screenshots and commented playthrough videos. If you're interested in more specifics, check out this <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?usp=sharing">more detailed document of my contributions</a>.</p>
-
-  <p>As a <b>level designer</b> for <a href="https://sonderingstudio.com/">Sondering Studio</a>, I...
+  <p>As a <b>level designer</b> for <a href="https://sonderingstudio.com/">Sondering Studio</a> from June - September 2023, I...
     <ul>
-      <li>Designed 4 levels</li>
+      <li>Prototyped 4 playable levels in Unity as only level designer, iterating following feedback from studio leads</li>
+      <li>Designed puzzles to teach new mechanics (danger/respawning, breaking rocks to create platforms, light-based platforms), escalate known mechanics, communicate emotional experience, and escalate in difficulty</li>
     </ul>
   </p>
 
-  <p><b>Timeline:</b> Jun - Sep 2023 (Level Design Contractor)</p>
-
-  <p><b>Tools:</b> Figma, Unity, Git/Github, Visual Studio Code (C#)</p>
-
+  <p>More details about my work can be found <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?tab=t.0">in this doc</a>.</p>
 </span>
 
 const GoldLiningAlt = "Text: progressive increase in intensity: easy jumps --> timed double jumps --> double jumping will kill you, must time single jumps well. Image: Level design prototype. Text: intense setpiece as dramatic finale to this section. reuses previous double jump timing in a new context. Image: Level design prototype."
@@ -100,12 +94,12 @@ const GamedevPage = () => {
       <p></p>
       <PortCardLeft image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></PortCardLeft>
       <p></p>
-      <PortCardLeft image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (CANCELLED)"></PortCardLeft>
-      <p></p>
+      <PortCardLeft image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></PortCardLeft>
+      {/* <p></p>
       <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
       <p></p>
       <PortCardLeft image={JealatinImage} alt={JealatinAlt} text={JealatinSpan} title="Jealatin"></PortCardLeft>
-      <p></p>
+      <p></p> */}
     </Layout>
   )
 }

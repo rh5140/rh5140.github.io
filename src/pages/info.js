@@ -28,9 +28,11 @@ const stringSpan =
 
   <br></br>
 
-  <h2>Contact</h2>
+  <h2>Links</h2>
   <p>Email: <a href="rayhsiaodev@gmail.com">rayhsiaodev@gmail.com</a></p>
   <p>LinkedIn: <a href="https://www.linkedin.com/in/rayhsiao">linkedin.com/in/rayhsiao</a></p>
+  <p>GitHub: <a href="https://github.com/rh5140">github.com/rh5140</a></p>
+  <p>Itch.io: <a href="https://raddishradish.itch.io/">raddishradish.itch.io</a></p>
 
 </span>
 

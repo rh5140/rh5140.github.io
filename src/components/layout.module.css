@@ -16,6 +16,10 @@ a:hover {
     color: white;
 }
 
+footer {
+    text-align: left;
+}
+
 /****************************/
 /* Layout component styling */
 /****************************/
