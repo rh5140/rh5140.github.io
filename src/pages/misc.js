@@ -4,9 +4,11 @@ import Layout from '../components/layout'
 import RaybladesGif from '../images/174a.gif'
 import CorgoGif from '../images/174c.gif'
 import FizzBuzzGif from '../images/FizzBuzz.gif'
+import Kazzi from '../images/MAGICAL_Mascot_Design_Guide_LightMode.jpg'
 import NebulosusGif from '../images/nebulosus.gif'
 import PkmnGif from '../images/pkmn_art.gif'
 import PlateGif from '../images/Plate.gif'
+import PMT from '../images/PMT.png'
 import RaddishGif from '../images/radish_crop.gif'
 
 const NebulosusSpan =
@@ -24,27 +26,15 @@ const NebulosusAlt = "This gif moves around in a pink, cloudy world. There is a 
 
 const FizzBuzzSpan =
 <span>
-  A character with abilities designed for a group board game, developed solo for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin.
+  A character with support abilities designed for a group board game, developed solo from January - February 2024 (3 weeks) for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA.
 
-  <p>This gecko thinks he's gifted with magical powers. Nobody has the heart to tell him the truth of his mundanity, so they play along with his antics. When Fizz Buzz falls below an energy threshold, he loses his wizard hat, and with it, the ability to cast spells (wizard cards). Fizz Buzz's spell cost can be decreased if there are character adjacent to him (believers) helping to convince him of his wizardry. The energy, believer, and threshold tokens are placed on the character sheet to track their respective quantities. The wizard hat can be removed from the character piece to show that Fizz Buzz can't cast spells.</p>
-  
-  <p><b>Timeline:</b> January - February 2024 (3 weeks)</p>
+  <p>My first foray into physical fabrication, in which I learned how to use Adobe Illustrator and wood glue! I'm particularly proud of the detachable hat.</p>
 
-  <p><b>Tools:</b> Adobe Illustrator, physical fabrication techniques (laser cut, glued, and painted wood)</p>
+  <p>With enough energy, Fizz Buzz can cast spells empowered by adjacent allies. After falling below an energy threshold, Fizz Buzz loses his ability to cast spells (and with it, the hat on his token.)</p>
 
-  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=20">Class documentation page</a>.</p>
 </span>
 
 const FizzBuzzAlt = "This gif swaps between several photos. They include a wooden character piece of a yellow gecko sitting on a tree wearing a purple wizard hat. The gecko, dubbed Fizz Buzz the Wizard Lizard, has an associated character card and character information sheet, along with cards and tracker tokens."
-
-const ArtSpan =
-<span>
-    I have fun making art that I post under <b>radishark art</b> (Instagram:<a href="https://www.instagram.com/radishark_art">@radishark_art</a>, previously @raddishradish). I post pretty sporadically, but I mostly create fanart in the form of digital illustration. More recently, I've been trying to do simple animations and also molding air dry clay!
-  
-    <p><b>Timeline:</b> December 2018 - present</p>
-
-    <p><b>Tools:</b> Adobe Photoshop or MediBang Paint for digital illustration</p>
-</span>
 
 const ArtAlt = "A gif that swaps between three frames. The first frame is a digital illustration of an Alolan Exeggutor designed as a Monster Hunter monster, formatted like a page out of a book. The second is a digital painting of a Flareon curled around a Torchic, sleeping on a pile of blankets. There is a heart made of fire above them. The final frame contains 3 digital drawings in a polygonal style. The one on the left is a shiny Rayquaza on a black background. The one on the top right is a Krokorok with sunglasses, arms crossed under the desert sun. The one on the bottom right is an Empoleon pointing at the viewer with a wing, with a background of geometric ice shapes."
 
@@ -76,11 +66,9 @@ const CorgoAlt = "A gif of a frog jumping on a mushroom in an environment of red
 
 const RaddishSpan =
 <span>
-  This clicker game was developed as our extra feature for Computer Science 130: Software Engineering, with three other students. This version I have online is mostly meant to demonstrate my contributions to the frontend and is disconnected from the backend. I designed the game elements, designed and implemented the webpage, and drew the art assets.
-
-  <p><b>Timeline:</b> May - June 2024 (1.5 weeks)</p>
-
-  <p><b>Tools:</b> JavaScript, HTML/CSS, MediBang Paint</p>
+  This clicker game was developed from May - June 2024 (1.5 weeks) for <a href="https://www.cs130.org/">Computer Science 130: Software Engineering</a>, with three other students. 
+  
+  <p>This version I have online is mostly meant to demonstrate my contributions to the frontend and is disconnected from the backend. I designed the game elements, designed and implemented the webpage, and drew the art assets.</p>
 
   <p>Run it in your browser on this <a href="https://rh5140.github.io/raddish/">webpage</a>. The frontend display branch can be seen here <a href="https://github.com/rh5140/raddish/tree/frontend-display">on GitHub</a>.</p>
 </span>
@@ -89,25 +77,36 @@ const RaddishAlt = "A gif of a clicker game featuring a large radish to click on
 
 const PlateSpan =
 <span>
-  This board game project was developed solo for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA, taught by Professor Sam Malabre and TA TJ Shin. Additionally, Professor Eddo Stern advised me on the project as part of Design | Media Arts 199: Directed Research.
+  A board game project was developed solo from February - March 2024 (3 weeks) for <a href="https://classes.dma.ucla.edu/Winter24/157/">Design | Media Arts 157: Game Design</a> at UCLA.
 
-  <p>Much on My Plate is drawn from my own experiences as a student struggling to balance everything I need to do and entering a positive feedback loop of feeling more and more overwhelmed and stressed.  Players accumulate tokens on their character piece's plate and are punished for losing tokens by gaining more stress tokens. </p>
+  <p>The gameplay was intended to simulate the positive feedback loop of getting more and more overwhelmed and stressed, but the gameplay didn't accurately reflect that. If I had more time and resources, I would experiment with different materials to make it physically difficult to lift the pieces – my character tokens were too stable and sturdy, and the tokens were far too light.</p>
 
-  <p>I fabricated all of the physical elements of the projects. I spent a lot of time building staircases, painting, and making the paper spring for the middle platform.</p>
-  
-  <p><b>Timeline:</b> February - March 2024 (3 weeks)</p>
+  <p>At least it makes for <a href="https://drive.google.com/file/d/1TsMWvrJxPb1QTYfpJ_MggEPiGn8N6sxq/view">a cool art piece</a>.</p>
 
-  <p><b>Tools:</b> Adobe Illustrator, Adobe InDesign, physical fabrication techniques (laser cut, painted, and glued wood; painted cardboard box; crafted paper spring and boxes; molded and painted clay tokens)</p>
-
-  <p><a href="https://classes.dma.ucla.edu/Winter24/157/?page_id=11355&projectID=3">Class documentation page</a>. This project was temporarily transformed into an art piece representing becoming completely overwhelmed: <a href="https://drive.google.com/file/d/1TsMWvrJxPb1QTYfpJ_MggEPiGn8N6sxq/view">I Give Up</a></p>
 </span>
 
 const PlateAlt = "This gif swaps between several photos of a board game. This board game is made up of 4 staircases, colored red, blue, yellow, and green, that converge to a white platform. The character pieces placed on the staircase are students carrying plates, and there are clay tokens of different shapes on their plates."
 
+const KazziSpan = 
+<span>
+  <p>A mascot designed for <a href="https://www.linkedin.com/company/magical-in-gaming">MAGICAL in Gaming</a>, a community of marginalized genders in gaming club alumni. Visual inspirations include magical girl companions and the MAGICAL logo, and the name is a diminutive of "alakazam."</p>
+</span>
+
+const KazziAlt = "A character sheet of Kazzi, a rabbit-like creature with no legs and floating arms, holding a wand and wearing a purple cape and purple mask shaped like a game controller"
+
+const PMTAlt = "A collage of art of an anthropomorphic milk tea character"
+
+const PMTSpan = <span>
+  <p>Comics created from June - July 2025 for The Devoured Year OCT. Read <a href="https://drive.google.com/drive/folders/1HJEsDPq7wc3G6I5EYunanawcfAL17L-e?usp=sharing">here</a> (itch page TBD).</p>
+</span>
 
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
+      <p></p>
+      <InfoCard image={Kazzi} alt={KazziAlt} text={KazziSpan} title="Kazzi the MAGICAL Mascot"></InfoCard>
+      <p></p>
+      <InfoCard image={PMT} alt={PMTAlt} text={PMTSpan} title="Pearl Milk-Tea Comics"></InfoCard>
       <p></p>
       <InfoCard image={RaddishGif} alt={RaddishAlt} text={RaddishSpan} title="raddish clicker!"></InfoCard>
       <p></p>
@@ -115,13 +114,13 @@ const MiscPage = () => {
       <p></p>
       <InfoCard image={PlateGif} alt={PlateAlt} text={PlateSpan} title="Much on My Plate"></InfoCard>
       <p></p>
-      <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
+      {/* <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
       <p></p>
       <InfoCard image={CorgoGif} alt={CorgoAlt} text={CorgoSpan} title="Corgo in Wonderland"></InfoCard>
       <p></p>
       <InfoCard image={RaybladesGif} alt={RaybladesAlt} text={RaybladesSpan} title="Beyblades"></InfoCard>
       <p></p>
-      <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard>
+      <InfoCard image={PkmnGif} alt={ArtAlt} text={ArtSpan} title="radishark art"></InfoCard> */}
     </Layout>
   )
 }

@@ -90,11 +90,11 @@ const HGGAlt = "A gif of the opening of Hey, Girlie!, in which Kristen is interc
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Game Design & Development">
-      <PortCardLeft image={HGGGif} alt={HGGAlt} text={HGGSpan} title="Hey, Girlie!"></PortCardLeft>
+      <InfoCard image={HGGGif} alt={HGGAlt} text={HGGSpan} title="Hey, Girlie!"></InfoCard>
       <p></p>
-      <PortCardLeft image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></PortCardLeft>
+      <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard>
       <p></p>
-      <PortCardLeft image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></PortCardLeft>
+      <InfoCard image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
       {/* <p></p>
       <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
       <p></p>
