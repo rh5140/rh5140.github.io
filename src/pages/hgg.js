@@ -52,7 +52,7 @@ const HggChallenges = <span><h2>Challenges</h2>
                         <div className={thirdImage}><img src={Tut2}></img></div>
                         <div className={thirdImage}><img src={Tut3}></img></div>
                       </div></p>      
-                      <p>The tutorial also covers some potential sources of gameplay confusion, like that you can only encounter a love interest once a week. While not the most effective way to communicate it to the player, it was the least disruptive way it could get added to the game.</p>               
+                      <p>The tutorial also covers some potential sources of gameplay confusion, like that you can only encounter a love interest once a week. While not the most effective way to communicate it to the player, it was the least disruptive way to add that information to the game.</p>               
                     </span>
 
 const HggPage = () => {

@@ -6,6 +6,7 @@ import PortCardLeft from '../components/port-card-left';
 import MeowsteriesImage from '../images/DorianScreenshot.jpg';
 import GoldLiningWork from '../images/GoldLiningWork.png';
 import HGGGif from '../images/HGG_Gif_Crop.gif';
+import OndineGif from '../images/Ondine.gif';
 
 const GoldLiningSpan =
 <span>
@@ -50,19 +51,28 @@ const HGGSpan =
 
 const HGGAlt = "A gif of the opening of Hey, Girlie!, in which Kristen is intercepted by Principal Aguefort in the halls of Aguefort Adventuring Academy"
 
+const OndineSpan=
+<span>
+  A 2D pixel shooter centered around swapping weapons and surviving hordes. Play on <a href="https://store.steampowered.com/app/3891230/Ondine_Prototype/">Steam</a>.
+  <p>As a <b>programmer</b> for Pier38 from September 2024 - March 2025, I...<ul>
+    <li>Delivered new features, including but not limited to unlockable levels, difficulty modes, tutorials, save system, and balance changes, ahead of schedule, reducing turnaround from 1 week to 1-3 days</li>
+    <li>Streamlined development process by rewriting <b>C#</b> code, reworking <b>Unity</b> scenes and prefabs, and organizing scripts</li>
+    <li>Overhauled art implementation by establishing consistent art import settings, replacing placeholder assets with final pixel art, simplifying animation state machines</li>
+  </ul></p>
+</span>
+
+const OndineAlt = "A gif of a 2D pixel shooter game, featuring lots of enemies swarming the player"
+
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Game Design & Development">
       <InfoCard image={HGGGif} alt={HGGAlt} text={HGGSpan} title="Hey, Girlie!"></InfoCard>
       <p></p>
+      <InfoCard image={OndineGif} alt={OndineAlt} text={OndineSpan} title="Ondine: Prototype"></InfoCard>
+      <p></p>
       <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard>
       <p></p>
       <InfoCard image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
-      {/* <p></p>
-      <PortCardLeft image={ToyTossTowerImage} alt={ToyTossTowerAlt} text={ToyTossTowerSpan} title="Toy Toss Tower"></PortCardLeft>
-      <p></p>
-      <PortCardLeft image={JealatinImage} alt={JealatinAlt} text={JealatinSpan} title="Jealatin"></PortCardLeft>
-      <p></p> */}
     </Layout>
   )
 }
