@@ -55,8 +55,6 @@ img {
 
     text-align: left;
 
-    
-
     a {
         color: black;
         transition-duration: 0.5s;
@@ -69,10 +67,34 @@ img {
 
 .card-title {
     font-weight: bold;
+    width: 100%;
     text-align: left;
 }
 
 iframe {
     aspect-ratio: 16/9;
     width: 100%;
+}
+
+button {
+    border-color: black;
+    color: black;
+    transition-duration: 0.5s;
+    width: 150px;
+    font-size: medium;
+}
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.triple-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.third-image {
+    width: 30%;
 }

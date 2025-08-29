@@ -17,6 +17,7 @@ const stringSpan =
   <br></br>
 
   <h2>Education</h2>
+  <p>M.S. in Game Science and Design, <a href="https://camd.northeastern.edu/programs/game-science-and-design-ms-oakland/">Northeastern University</a> (2025-2027)</p>
   <p>B.S. in Computer Science, <a href="https://www.cs.ucla.edu/">University of California, Los Angeles</a> (2020-2024)</p>
 
   <br></br>
@@ -38,7 +39,7 @@ const stringSpan =
 
 const InfoPage = () => {
   return (
-    <Layout pageTitle="About me">
+    <Layout pageTitle="About Me">
       <InfoCard image={PFP} alt="Black and white 2-frame GIF of a smiling Asian person surrounded by video games, music, art, comics, level design, typing, a book, a cat, and the text SOMETHING NEW." text={stringSpan} title="Hello!"></InfoCard>
     </Layout>
   )

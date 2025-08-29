@@ -2,19 +2,19 @@ import { Link } from 'gatsby'
 import * as React from 'react'
 import {
     container,
+    footerLeft,
+    footerRight,
     heading,
     linkButton,
     navLinkContainer,
     navLinkItem,
     navLinkText,
-    navLinks,
-    siteTitle
+    siteTitle,
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {    
   return (
     <div className={container}>
-        {/* Get rid of hardcoding later :) */}
         <title>Ray Hsiao | {pageTitle} </title>
         <header>
             <div className={siteTitle}><h1>Ray Hsiao</h1></div>
@@ -43,7 +43,8 @@ const Layout = ({ pageTitle, children }) => {
         </main>
         <footer>
             <p></p>
-            © 2025 by Ray Hsiao
+            <div className={footerLeft}><br></br><a href="https://www.linkedin.com/in/rayhsiao">LinkedIn</a> | <a href="https://github.com/rh5140">GitHub</a></div>
+            <div className={footerRight}><br></br>© 2025 by Ray Hsiao</div>
         </footer>
     </div>
   )
