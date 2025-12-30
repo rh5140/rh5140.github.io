@@ -14,26 +14,27 @@ const stringSpan =
 
   <p>Outside of games, my interests include drawing, singing along to music, and reading. My animated self-portrait to the left was created for the <a href="https://docs.google.com/presentation/d/1OFWHsRW--GJiwM5zXVqS0-gV9vw52H-A-Zphuq-gjo8/edit?slide=id.g2f60e087a38_0_0#slide=id.g2f60e087a38_0_0">MAGICAL Medium Zine 2024</a>.</p>
 
-  <br></br>
 
   <h2>Education</h2>
   <p>M.S. in Game Science and Design, <a href="https://camd.northeastern.edu/programs/game-science-and-design-ms-oakland/">Northeastern University</a> (2025-2027)</p>
   <p>B.S. in Computer Science, <a href="https://www.cs.ucla.edu/">University of California, Los Angeles</a> (2020-2024)</p>
 
-  <br></br>
 
   <h2>Volunteering</h2>
+  <p>Officer, <a href="https://sgda.io/">SGDA (Student Games Developers' Alliance)</a> (2025-present)</p>
   <p>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming">MAGICAL in Gaming</a> (2025)</p>
   <p>Conference Associate, <a href="https://gdconf.com/">Game Developers Conference</a> (2022, 2024)</p>
   <p>Game Development Club President, <a href="https://studio.uclaacm.com/">ACM Studio at UCLA</a> (2022-2023)</p>
-
-  <br></br>
 
   <h2>Links</h2>
   <p>Email: <a href="rayhsiaodev@gmail.com">rayhsiaodev@gmail.com</a></p>
   <p>LinkedIn: <a href="https://www.linkedin.com/in/rayhsiao">linkedin.com/in/rayhsiao</a></p>
   <p>GitHub: <a href="https://github.com/rh5140">github.com/rh5140</a></p>
   <p>Itch.io: <a href="https://raddishradish.itch.io/">raddishradish.itch.io</a></p>
+
+  <br></br>
+  <h2>Currently playing</h2>
+  <p><i>Teamfight Tactics</i>, <i>Arknights</i>, <i>Slay the Princess</i>, <i>Zero Escape</i></p>
 
 </span>
 

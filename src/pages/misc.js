@@ -10,6 +10,7 @@ import PkmnGif from '../images/pkmn_art.gif'
 import PlateGif from '../images/Plate.gif'
 import PMT from '../images/PMT.png'
 import RaddishGif from '../images/radish_crop.gif'
+import TypingGif from '../images/typing.gif'
 
 const NebulosusSpan =
 <span>
@@ -100,9 +101,43 @@ const PMTSpan = <span>
   <p>Comics created from June - July 2025 for The Devoured Year OCT. Read <a href="https://drive.google.com/drive/folders/1HJEsDPq7wc3G6I5EYunanawcfAL17L-e?usp=sharing">here</a> (itch page TBD).</p>
 </span>
 
+
+const WritingSpan = <span>
+  <p>Some game-related writing and research!
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1PwAO3xTT8RClpH-d4TJIGpOKO3CUB94V/view?usp=sharing">A Friendlier Auto Battler: A comparative analysis between <i>Dota Auto Chess</i>, <i>Teamfight Tactics</i>, and <i>Super Auto Pets</i></a></li>
+      <ul>
+        <li>Auto battler genre analysis written in December 2025 as final for GSND 5111: Game Design & Analysis Seminar</li>
+      </ul>
+      <li><a href="https://drive.google.com/file/d/1kLSx4pQ1sOVxLUQ70y7x-k5ANXt3-aip/view?usp=sharing">Game Narrative Review: <i>999: Nine Hours, Nine Persons, Nine Doors</i></a></li>
+      <ul>
+        <li><b>Warning: contains major spoilers</b></li>
+        <li>Written in December 2025 for GDC Game Narrative Review student competition</li>
+      </ul>
+      <li><a href="https://drive.google.com/file/d/12jNV8lfW8NC1Do2yCQ88ByxeWHE5G_gu/view?usp=sharing">Hit the Jackpot? A Study on Lottery Prize Amount and Re-Participation</a></li>
+      <ul>
+        <li>Quantitative study conducted in December 2025 for GSND 5130: Mixed Research Methods in Games</li>
+      </ul>
+      <li><a href="https://drive.google.com/file/d/19855OkuBy_DnitNdLmVBMXn4yQCxs4yL/view?usp=sharing">Investigating Learnability and Enjoyment in <i>Little Chef: Prototype</i></a></li>
+      <ul>
+        <li>Usability study on sandbox cooking game conducted in November 2025 for Mixed Research Methods in Games</li>
+      </ul>
+      
+      <li><a href="https://drive.google.com/file/d/12E1z6i9GmYayBB1Qs9B0WemH7WPivtZ8/view?usp=sharing">Exploring Pulling Motivations of <i>Arknights</i> Players Across Servers</a></li>
+      <ul>
+        <li>Qualitative study on EN and CN <i>Arknights</i> players' participation in the gacha system conducted in October 2025 for Mixed Research Methods in Games</li>
+      </ul>
+    </ul>
+  </p>
+</span>
+
+const TypingAlt = "A 2-frame gif of a bespectacled person typing"
+
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
+      <p></p>
+      <InfoCard image={TypingGif} alt={TypingAlt} text={WritingSpan} title="Writing and Research"></InfoCard>
       <p></p>
       <InfoCard image={Kazzi} alt={KazziAlt} text={KazziSpan} title="Kazzi the MAGICAL Mascot"></InfoCard>
       <p></p>
