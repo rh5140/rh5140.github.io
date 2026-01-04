@@ -4,14 +4,15 @@ import InfoCard from '../components/info-card';
 import Layout from '../components/layout';
 import PortCardLeft from '../components/port-card-left';
 import DendoroGif from '../images/DendoroGif.gif';
-import MeowsteriesImage from '../images/DorianScreenshot.jpg';
-import GoldLiningWork from '../images/GoldLiningWork.png';
+import GoldLiningTrailer from '../images/GoldLiningTrailer.gif';
 import HGGGif from '../images/HGG_Gif_Crop.gif';
+import MeowsteriesImage from '../images/Meowsteries.gif';
 import OndineGif from '../images/Ondine.gif';
 
 const GoldLiningSpan =
 <span>
-  A narrative platformer about a Chinese American protagonist finding her way home from a fantastical realm which received $100k+ in funding from Microsoft ID@Xbox and Code Coven. <i>No longer in development</i>. <a href="https://store.steampowered.com/app/3036500/Gold_Lining/">Steam page</a>.
+  <a href="https://store.steampowered.com/app/3036500/Gold_Lining/" target="_blank"><button>Steam page</button></a> <p></p>
+  A narrative platformer about a Chinese American protagonist finding her way home from a fantastical realm which received $100k+ in funding from Microsoft ID@Xbox and Code Coven. <i>No longer in development</i>.
 
   <p>As a <b>level designer</b> for <a href="https://sonderingstudio.com/">Sondering Studio</a> from June - September 2023, I...
     <ul>
@@ -20,16 +21,18 @@ const GoldLiningSpan =
     </ul>
   </p>
 
-  <p>More details about my work can be found <a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?tab=t.0">in this doc</a>.</p>
+  <p><a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?tab=t.0" target="_blank"><button>Learn more!</button></a></p>
 </span>
 
 const GoldLiningAlt = "Text: progressive increase in intensity: easy jumps --> timed double jumps --> double jumping will kill you, must time single jumps well. Image: Level design prototype. Text: intense setpiece as dramatic finale to this section. reuses previous double jump timing in a new context. Image: Level design prototype."
 
 const MeowsteriesSpan = 
 <span>
-  A heartwarming kinetic visual novel with point-and-click elements developed in November 2024 (GitHub Game Off, 1 month). Playable in browser on <a href="https://viviennelin.itch.io/meowsteries-of-tiramisu-apts">itch.io</a>. Code on <a href="https://github.com/rh5140/GameOff2024">GitHub</a>.
+  <a href="https://viviennelin.itch.io/meowsteries-of-tiramisu-apts" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/GameOff2024" target="_blank"><button>Code on GitHub</button></a>
+  <p></p>
+  A heartwarming kinetic visual novel with point-and-click elements developed in November 2024 (GitHub Game Off, 1 month).
 
-  <p>As a <b>programmer</b> in a team of 7, I...<ul>
+  <p>As the <b>lead programmer</b> in a team of 7, I...<ul>
     <li>Implemented reusable framework for narrative and minigame using <b>Unity, C#, and Yarn Spinner</b></li>
     <li>Wrote step-by-step guides and <b>documentation</b> for writers and developers</li>
     <li>Mentored two other programmers new to tech stack through pair programming and <b>GitHub code reviews</b>, empowering them to implement critical gameplay features by <b>weekly sprint deadline</b></li>
@@ -41,7 +44,9 @@ const MeowsteriesAlt = "A screenshot of a cross-armed brown man with a bun, red 
 
 const HGGSpan =
 <span>
-  A visual novel dating sim that encourages the player to pay attention, paralleling what the protagonist needs to work on in her relationships. Playable on <a href="https://raddishradish.itch.io/hey-girlie">itch.io</a>. Code on <a href="https://github.com/rh5140/HeyGirlieGame">GitHub</a>.
+  <a href="https://raddishradish.itch.io/hey-girlie" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/HeyGirlieGame" target="_blank"><button>Code on GitHub</button></a>
+  <p></p>
+  A visual novel dating sim that encourages the player to pay attention, paralleling what the protagonist needs to work on in her relationships.
 
   <p>I served as <b>game director, designer, and engineer</b>, leading an international team of 52 creatives.  </p>
 
@@ -54,7 +59,8 @@ const HGGAlt = "A gif of the opening of Hey, Girlie!, in which Kristen is interc
 
 const OndineSpan=
 <span>
-  A 2D pixel shooter centered around swapping weapons and surviving hordes. Play on <a href="https://store.steampowered.com/app/3891230/Ondine_Prototype/">Steam</a>.
+  <a href="https://store.steampowered.com/app/3891230/Ondine_Prototype" target="_blank"><button>Play on Steam</button></a> <p></p>
+  A 2D pixel shooter centered around swapping weapons and surviving hordes.
   <p>As a <b>programmer</b> for Pier38 from September 2024 - March 2025, I...<ul>
     <li>Delivered new features, including but not limited to unlockable levels, difficulty modes, tutorials, save system, and balance changes, ahead of schedule, reducing turnaround from 1 week to 1-3 days</li>
     <li>Streamlined development process by rewriting <b>C#</b> code, reworking <b>Unity</b> scenes and prefabs, and organizing scripts</li>
@@ -67,7 +73,9 @@ const OndineAlt = "A gif of a 2D pixel shooter game, featuring lots of enemies s
 
 const DendoroSpan=
 <span>
-    Quest for Dendoro is a 2.5D action-adventure RPG developed by a team of Northeastern University Game Science and Design students, with music and sound design by San Francisco Conservatory of Music students, for 4th and 5th grade students at Mills College Children's School. Playable on <a href="https://raddishradish.itch.io/quest-for-dendoro">itch.io</a>. Code on <a href="https://github.com/rh5140/questForDendoro">GitHub</a>.
+  <a href="https://raddishradish.itch.io/quest-for-dendoro" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/questForDendoro" target="_blank"><button>Code on GitHub</button></a>
+  <p></p>
+    A 2.5D action-adventure RPG developed with and for 4th and 5th grade students.
   <p>As a <b>producer, programmer, and designer</b> from October 2025 - December 2025, I...<ul>
     <li>Established experience goals and development timeline for MVP of 2.5D RPG developed with 5-person team</li>
     <li>Facilitated weekly standups for sharing updates, identifying blockers, and re-evaluating priorities, tracking progress using team log document and Trello board</li>
@@ -89,7 +97,7 @@ const GamedevPage = () => {
       <p></p>
       <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard>
       <p></p>
-      <InfoCard image={GoldLiningWork} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining"></InfoCard>
+      <InfoCard image={GoldLiningTrailer} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (Cancelled)"></InfoCard>
     </Layout>
   )
 }
