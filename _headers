@@ -11,19 +11,21 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-art-js-ed2f8897847fc2d9e4a0.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-cf9304c99b899359db28.js
+/component---src-pages-index-js-86572aa682f2fa67adce.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-info-js-c1cceaea37f8e99aa52a.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-misc-js-a2ed400c009bf05487e3.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-hgg-js-91648dee7bfa202a1521.js
+/component---src-pages-hgg-js-ccc80c611442c303f99c.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-bb81473fcecb912e9abf.js
+/component---src-pages-qfd-js-8d9e72682dcb25a7ca01.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-92dfe3481e510137d4aa.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-701cea40fb188ddcf331.js
   Cache-Control: public, max-age=31536000, immutable
-/app-fea425688b43c50262a5.js
+/app-7d0c04000072cc29af8c.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
