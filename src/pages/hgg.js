@@ -14,7 +14,7 @@ import Tut3 from '../images/Tut3.png';
 import WeeklyUI from '../images/WeeklyUI_Layout_2.png';
 
 const HggSummary = <span><b><i>Hey, Girlie!</i></b> is a visual novel dating simulator in which a high school senior needs to find a date to the Spring Fling or literally die! Disclaimer: This <i>Fantasy High</i> fan project is unaffiliated with Dimension 20 or Dropout.</span>
-const HggLinks = <span>Play for free on <a href="https://raddishradish.itch.io/hey-girlie">itch.io</a>. See the code on <a href="https://github.com/rh5140/HeyGirlieGame">GitHub</a>.</span>
+const HggLinks = <span><a href="https://raddishradish.itch.io/hey-girlie" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/HeyGirlieGame" target="_blank"><button>Code on GitHub</button></a></span>
 const HggContributions = <span><ul>
                     <li>Led an <b>international team of 52</b> artists, writers, programmers, voice actors, and composers to develop dating sim with 6 romanceable characters and 9 endings</li>
                     <li>Recruited 7 project leads to help delegate responsibilities, collaborating to establish guidelines, workflow, and timeline </li>

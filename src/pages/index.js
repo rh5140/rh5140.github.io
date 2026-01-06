@@ -3,11 +3,11 @@ import * as React from 'react';
 import InfoCard from '../components/info-card';
 import Layout from '../components/layout';
 import PortCardLeft from '../components/port-card-left';
-import DendoroGif from '../images/DendoroGif.gif';
 import GoldLiningTrailer from '../images/GoldLiningTrailer.gif';
 import HGGGif from '../images/HGG_Gif_Crop.gif';
 import MeowsteriesImage from '../images/Meowsteries.gif';
 import OndineGif from '../images/Ondine.gif';
+import DendoroGif from '../images/QfdGif.gif';
 
 const GoldLiningSpan =
 <span>
@@ -75,13 +75,10 @@ const DendoroSpan=
 <span>
   <a href="https://raddishradish.itch.io/quest-for-dendoro" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/questForDendoro" target="_blank"><button>Code on GitHub</button></a>
   <p></p>
-    A 2.5D action-adventure RPG developed with and for 4th and 5th grade students.
-  <p>As a <b>producer, programmer, and designer</b> from October 2025 - December 2025, I...<ul>
-    <li>Established experience goals and development timeline for MVP of 2.5D RPG developed with 5-person team</li>
-    <li>Facilitated weekly standups for sharing updates, identifying blockers, and re-evaluating priorities, tracking progress using team log document and Trello board</li>
-    <li>Implemented core gameplay systems such as movement, interaction, combat, and puzzles with C# in Unity</li>
-    <li>Conducted playtests with target audience (children aged 9-11) to identify issues, evaluate needs, and improve design, such as designing mobile-friendly UI after discovering users' unfamiliarity with keyboard-and-mouse</li>
-  </ul></p>
+  A 2.5D action-adventure RPG developed with and for 4th and 5th grade students, featuring light customization, puzzles, and combat.
+  <p>I was a <b>producer, programmer, and designer</b> for the project.</p>
+  
+  <p> <Link to="/qfd"><button>Learn more!</button></Link>  </p>
 </span>
 
 const DendoroAlt = "A long gif of a 2.5D RPG featuring a hero in a squirrel-tail knight helmet, colorful squirrel allies, and sneaky raccoons"
