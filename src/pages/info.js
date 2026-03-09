@@ -16,22 +16,28 @@ const stringSpan =
 
 
   <h2>Education</h2>
-  <p>M.S. in Game Science and Design, <a href="https://camd.northeastern.edu/programs/game-science-and-design-ms-oakland/" target="_blank">Northeastern University</a> (2025-2027)</p>
-  <p>B.S. in Computer Science, <a href="https://www.cs.ucla.edu/" target="_blank">University of California, Los Angeles</a> (2020-2024)</p>
+  <ul>
+    <li>M.S. in Game Science and Design, <a href="https://camd.northeastern.edu/programs/game-science-and-design-ms-oakland/" target="_blank">Northeastern University</a> (2025-2027)</li>
+    <li>B.S. in Computer Science, <a href="https://www.cs.ucla.edu/" target="_blank">University of California, Los Angeles</a> (2020-2024)</li>
 
+  </ul>
 
   <h2>Volunteering</h2>
-  <p>Coordinator, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2026-present)</p>
-  <p>Public Relations Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</p>
-  <p>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2025)</p>
-  <p>Conference Associate, <a href="https://gdconf.com/" target="_blank">Game Developers Conference</a> (2022, 2024)</p>
-  <p>Game Development Club President, <a href="https://studio.uclaacm.com/" target="_blank">ACM Studio at UCLA</a> (2022-2023)</p>
+  <ul>
+    <li>Community Coordinator, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2026-present)</li>
+    <li>PR Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</li>
+    <li>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2025)</li>
+    <li>Conference Associate, <a href="https://gdconf.com/" target="_blank">Game Developers Conference</a> (2022, 2024)</li>
+    <li>Game Development Club President, <a href="https://studio.uclaacm.com/" target="_blank">ACM Studio at UCLA</a> (2022-2023)</li>
+  </ul>
 
   <h2>Links</h2>
-  <p>Email: <a href="rayhsiaodev@gmail.com" target="_blank">rayhsiaodev@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/rayhsiao" target="_blank">linkedin.com/in/rayhsiao</a></p>
-  <p>GitHub: <a href="https://github.com/rh5140" target="_blank">github.com/rh5140</a></p>
-  <p>Itch.io: <a href="https://raddishradish.itch.io/" target="_blank">raddishradish.itch.io</a></p>
+  <ul>
+    <li>Email: <a href="rayhsiaodev@gmail.com" target="_blank">rayhsiaodev@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/rayhsiao" target="_blank">linkedin.com/in/rayhsiao</a></li>
+    <li>GitHub: <a href="https://github.com/rh5140" target="_blank">github.com/rh5140</a></li>
+    <li>Itch.io: <a href="https://raddishradish.itch.io/" target="_blank">raddishradish.itch.io</a></li>
+  </ul>
 
   <h2>Currently playing</h2>
   <p><i>Teamfight Tactics</i> (peak rank Master), <i>Arknights</i>, <i>Slay the Princess</i>, <i>Zero Escape</i></p>

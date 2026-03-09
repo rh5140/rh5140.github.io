@@ -108,12 +108,7 @@ const WritingSpan = <span>
       <li><a href="https://drive.google.com/file/d/1PwAO3xTT8RClpH-d4TJIGpOKO3CUB94V/view?usp=sharing">A Friendlier Auto Battler: A comparative analysis between <i>Dota Auto Chess</i>, <i>Teamfight Tactics</i>, and <i>Super Auto Pets</i></a></li>
       <ul>
         <li>Auto battler genre analysis written in December 2025 as final for GSND 5111: Game Design & Analysis Seminar</li>
-      </ul>
-      <li><a href="https://drive.google.com/file/d/1kLSx4pQ1sOVxLUQ70y7x-k5ANXt3-aip/view?usp=sharing">Game Narrative Review: <i>999: Nine Hours, Nine Persons, Nine Doors</i></a></li>
-      <ul>
-        <li><b>Warning: contains major spoilers</b></li>
-        <li>Written in December 2025 for GDC Game Narrative Review student competition</li>
-      </ul>
+      </ul>    
       <li><a href="https://drive.google.com/file/d/12jNV8lfW8NC1Do2yCQ88ByxeWHE5G_gu/view?usp=sharing">Hit the Jackpot? A Study on Lottery Prize Amount and Re-Participation</a></li>
       <ul>
         <li>Quantitative study conducted in December 2025 for GSND 5130: Mixed Research Methods in Games</li>
