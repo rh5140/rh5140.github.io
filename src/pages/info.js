@@ -21,7 +21,8 @@ const stringSpan =
 
 
   <h2>Volunteering</h2>
-  <p>Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</p>
+  <p>Coordinator, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2026-present)</p>
+  <p>Public Relations Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</p>
   <p>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2025)</p>
   <p>Conference Associate, <a href="https://gdconf.com/" target="_blank">Game Developers Conference</a> (2022, 2024)</p>
   <p>Game Development Club President, <a href="https://studio.uclaacm.com/" target="_blank">ACM Studio at UCLA</a> (2022-2023)</p>
@@ -33,7 +34,7 @@ const stringSpan =
   <p>Itch.io: <a href="https://raddishradish.itch.io/" target="_blank">raddishradish.itch.io</a></p>
 
   <h2>Currently playing</h2>
-  <p><i>Teamfight Tactics</i>, <i>Arknights</i>, <i>Slay the Princess</i>, <i>Zero Escape</i></p>
+  <p><i>Teamfight Tactics</i> (peak rank Master), <i>Arknights</i>, <i>Slay the Princess</i>, <i>Zero Escape</i></p>
 
 </span>
 
