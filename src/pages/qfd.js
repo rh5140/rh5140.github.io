@@ -15,9 +15,10 @@ const QfdSummary = <span><b><i>Quest for Dendoro</i></b> is a 2.5D action-advent
 const QfdLinks = <span><a href="https://raddishradish.itch.io/quest-for-dendoro" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/questForDendoro" target="_blank"><button>Code on GitHub</button></a></span>
 const QfdContributions = <span><ul>
                               <li>Established experience goals and development timeline for MVP of 2.5D RPG developed with 5-person team</li>
+                              <li>Implemented and iterated on core gameplay systems such as movement, interaction, combat, boss behavior, billboarding 2D assets, and character customization for 2.5D RPG developed with 5-person team</li>
+                              <li>Conducted playtests with target audience (children ages 9-11) to identify issues, evaluate needs, and improve design, e.g. prioritizing touchscreen interface since users preferred iPads over keyboards</li>
                               <li>Facilitated weekly standups for sharing updates, identifying blockers, and re-evaluating priorities, tracking progress using team log document and Trello board</li>
-                              <li>Implemented core gameplay systems such as movement, interaction, combat, and puzzles with C# in Unity</li>
-                              <li>Conducted playtests with target audience (children aged 9-11) to identify issues, evaluate needs, and improve design, such as designing mobile-friendly UI after discovering users' unfamiliarity with keyboard-and-mouse</li>
+                              <li>Wrote and implemented all overworld and cutscene dialogue to better integrate gameplay with existing story</li>
                               </ul>
                     </span>
 const QfdPlaytest = <span><h2>Playtests and Iterations</h2>

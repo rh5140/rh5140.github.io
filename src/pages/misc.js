@@ -69,7 +69,7 @@ const RaddishSpan =
 <span>
   This clicker game was developed from May - June 2024 (1.5 weeks) for <a href="https://www.cs130.org/">Computer Science 130: Software Engineering</a>, with three other students. 
   
-  <p>This version I have online is mostly meant to demonstrate my contributions to the frontend and is disconnected from the backend. I designed the game elements, designed and implemented the webpage, and drew the art assets.</p>
+  <p>This version I have online is mostly meant to demonstrate my contributions to the frontend and is disconnected from the backend. I designed the game elements, designed and implemented the webpage with vanilla JavaScript, and drew the art assets.</p>
 
   <p>Run it in your browser on this <a href="https://rh5140.github.io/raddish/">webpage</a>. The frontend display branch can be seen here <a href="https://github.com/rh5140/raddish/tree/frontend-display">on GitHub</a>.</p>
 </span>
@@ -98,51 +98,23 @@ const KazziAlt = "A character sheet of Kazzi, a rabbit-like creature with no leg
 const PMTAlt = "A collage of art of an anthropomorphic milk tea character"
 
 const PMTSpan = <span>
-  <p>Comics created from June - July 2025 for The Devoured Year OCT. Read <a href="https://drive.google.com/drive/folders/1HJEsDPq7wc3G6I5EYunanawcfAL17L-e?usp=sharing">here</a> (itch page TBD).</p>
+  <p>I like making stuff with my hands. Always drawing, currently printmaking (letterpress and risograph!), previously got really into molding air-dry clay Pokémon and making comics. Some of my original character comics can be read <a href="https://drive.google.com/drive/folders/1HJEsDPq7wc3G6I5EYunanawcfAL17L-e?usp=sharing">here</a>.</p>
+
+  <p>I keep making new stuff, so it's hard to keep this section up to date...</p>
 </span>
-
-
-const WritingSpan = <span>
-  <p>Some game-related writing and research!
-    <ul>
-      <li><a href="https://drive.google.com/file/d/1PwAO3xTT8RClpH-d4TJIGpOKO3CUB94V/view?usp=sharing">A Friendlier Auto Battler: A comparative analysis between <i>Dota Auto Chess</i>, <i>Teamfight Tactics</i>, and <i>Super Auto Pets</i></a></li>
-      <ul>
-        <li>Auto battler genre analysis written in December 2025 as final for GSND 5111: Game Design & Analysis Seminar</li>
-      </ul>    
-      <li><a href="https://drive.google.com/file/d/12jNV8lfW8NC1Do2yCQ88ByxeWHE5G_gu/view?usp=sharing">Hit the Jackpot? A Study on Lottery Prize Amount and Re-Participation</a></li>
-      <ul>
-        <li>Quantitative study conducted in December 2025 for GSND 5130: Mixed Research Methods in Games</li>
-      </ul>
-      <li><a href="https://drive.google.com/file/d/19855OkuBy_DnitNdLmVBMXn4yQCxs4yL/view?usp=sharing">Investigating Learnability and Enjoyment in <i>Little Chef: Prototype</i></a></li>
-      <ul>
-        <li>Usability study on sandbox cooking game conducted in November 2025 for Mixed Research Methods in Games</li>
-      </ul>
-      
-      <li><a href="https://drive.google.com/file/d/12E1z6i9GmYayBB1Qs9B0WemH7WPivtZ8/view?usp=sharing">Exploring Pulling Motivations of <i>Arknights</i> Players Across Servers</a></li>
-      <ul>
-        <li>Qualitative study on EN and CN <i>Arknights</i> players' participation in the gacha system conducted in October 2025 for Mixed Research Methods in Games</li>
-      </ul>
-    </ul>
-  </p>
-</span>
-
-const TypingAlt = "A 2-frame gif of a bespectacled person typing"
 
 const MiscPage = () => {
   return (
     <Layout pageTitle="Miscellaneous">
-      <p></p>
-      <InfoCard image={TypingGif} alt={TypingAlt} text={WritingSpan} title="Writing and Research"></InfoCard>
-      <p></p>
       <InfoCard image={Kazzi} alt={KazziAlt} text={KazziSpan} title="Kazzi the MAGICAL Mascot"></InfoCard>
-      <p></p>
-      <InfoCard image={PMT} alt={PMTAlt} text={PMTSpan} title="Pearl Milk-Tea Comics"></InfoCard>
       <p></p>
       <InfoCard image={RaddishGif} alt={RaddishAlt} text={RaddishSpan} title="raddish clicker!"></InfoCard>
       <p></p>
       <InfoCard image={FizzBuzzGif} alt={FizzBuzzAlt} text={FizzBuzzSpan} title="Fizz Buzz the Wizard Lizard"></InfoCard>
       <p></p>
       <InfoCard image={PlateGif} alt={PlateAlt} text={PlateSpan} title="Much on My Plate"></InfoCard>
+      <p></p>
+      <InfoCard image={PMT} alt={PMTAlt} text={PMTSpan} title="Art & Crafts & Comics"></InfoCard>
       <p></p>
       {/* <InfoCard image={NebulosusGif} alt={NebulosusAlt} text={NebulosusSpan} title="Nebulosus Reverie"></InfoCard>
       <p></p>

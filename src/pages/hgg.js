@@ -16,12 +16,10 @@ import WeeklyUI from '../images/WeeklyUI_Layout_2.png';
 const HggSummary = <span><b><i>Hey, Girlie!</i></b> is a visual novel dating simulator in which a high school senior needs to find a date to the Spring Fling or literally die! Disclaimer: This <i>Fantasy High</i> fan project is unaffiliated with Dimension 20 or Dropout.</span>
 const HggLinks = <span><a href="https://raddishradish.itch.io/hey-girlie" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/HeyGirlieGame" target="_blank"><button>Code on GitHub</button></a></span>
 const HggContributions = <span><ul>
-                    <li>Led an <b>international team of 52</b> artists, writers, programmers, voice actors, and composers to develop dating sim with 6 romanceable characters and 9 endings</li>
-                    <li>Recruited 7 project leads to help delegate responsibilities, collaborating to establish guidelines, workflow, and timeline </li>
-                    <li>Collaborated with team members to design core gameplay loop, iterating on diagrams and prototypes</li>
+                    <li>Led international team of 52 artists, writers, programmers, voice actors, and composers to develop dating sim with 6 romanceable characters and 9 endings, receiving 10k plays in first week of release on itch.io</li>
+                    <li>Designed and implemented core location-based gameplay loop, art and audio asset swapping, and accessibility features like a tutorial and location hints following playtest feedback</li>
                     <li>Implemented and documented prefabs (modular gameplay components), scene set up, and functions for engineers and writers to use</li>
-                    <li>Reviewed code and implementation changes by 3 other engineers on GitHub, resolving bugs and technical challenges</li>
-                    <li>Shipped weekly builds for internal playtesting, making usability changes and implementing accessibility features like a tutorial and location hints following playtest feedback</li>
+                    <li>Monitored pre-launch internal playtest forum and post-launch external bug report form post-launch to identify and hotfix urgent issues</li>
                     </ul>
                     </span>
 const HggDesign = <span>

@@ -4,6 +4,7 @@ import InfoCard from '../components/info-card';
 import Layout from '../components/layout';
 import PortCardLeft from '../components/port-card-left';
 import GoldLiningTrailer from '../images/GoldLiningTrailer.gif';
+import GoodWorkGif from '../images/GoodWorkGif.gif';
 import HGGGif from '../images/HGG_Gif_Crop.gif';
 import MeowsteriesImage from '../images/Meowsteries.gif';
 import OndineGif from '../images/Ondine.gif';
@@ -83,6 +84,20 @@ const DendoroSpan=
 
 const DendoroAlt = "A long gif of a 2.5D RPG featuring a hero in a squirrel-tail knight helmet, colorful squirrel allies, and sneaky raccoons"
 
+
+const GoodWorkSpan=
+<span>
+  <a href="https://raddishradish.itch.io/good-work" target="_blank"><button>Play on itch.io</button></a> <p></p>
+  A 2D point-and-click game that simulates being trapped in a stressful and demeaning job, developed in a weekend for Global Game Jam 2026 (theme: mask).
+  <p>As a <b>technical designer</b> in a team of 5, I...<ul>
+    <li>Pitched, designed, and implemented core gameplay systems of player stamina and quick-time event minigames</li>
+    <li>Scoped short, snappy gameplay loop for high level of polish within ~24 hours of development time in Unity and C#</li>
+    <li>Implemented quicktime events to be easily extensible for more minigame variations</li>
+  </ul></p>
+</span>
+
+const GoodWorkAlt = "A gameplay gif of menial point-and-click tasks (checking off reports, making coffee, sending emails, downloading files) in a dreary office environment"
+
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Game Design & Development">
@@ -90,9 +105,10 @@ const GamedevPage = () => {
       <p></p>
       <InfoCard image={DendoroGif} alt={DendoroAlt} text={DendoroSpan} title="Quest for Dendoro"></InfoCard>
       <p></p>
-      <InfoCard image={OndineGif} alt={OndineAlt} text={OndineSpan} title="Ondine: Prototype"></InfoCard>
+      <InfoCard image={GoodWorkGif} alt={GoodWorkAlt} text={GoodWorkSpan} title="Keep Up the Good Work!"></InfoCard>
       <p></p>
-      <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard>
+      <InfoCard image={OndineGif} alt={OndineAlt} text={OndineSpan} title="Ondine: Prototype"></InfoCard>
+      {/* <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard> */}
       <p></p>
       <InfoCard image={GoldLiningTrailer} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (Cancelled)"></InfoCard>
     </Layout>
