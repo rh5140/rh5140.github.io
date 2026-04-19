@@ -11,7 +11,7 @@ import QfdImage4 from '../images/qfd-4.png';
 import QfdImage5 from '../images/qfd-5.png';
 import QfdImage6 from '../images/qfd-6.png';
 
-const QfdSummary = <span><b><i>Quest for Dendoro</i></b> is a 2.5D action-adventure RPG in which a hero must recover a magical amulet to save the village of Dendoro, developed at Northeastern University Oakland in collaboration with students from Mills College Children's School and San Francisco Conservatory of Music.</span>
+const QfdSummary = <span>How do you design a game with and for pre-teens? <b><i>Quest for Dendoro</i></b> is a 2.5D action-adventure RPG created for a children ages 9-11. While this range may seem narrow, pre-teens experience significant growth at varying rates, so a 9-year-old may struggle wth concepts easy for an 11-year-old to grasp.</span>
 const QfdLinks = <span><a href="https://raddishradish.itch.io/quest-for-dendoro" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/questForDendoro" target="_blank"><button>Code on GitHub</button></a></span>
 const QfdContributions = <span><ul>
                               <li>Established experience goals and development timeline for MVP of 2.5D RPG developed with 5-person team</li>

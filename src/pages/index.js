@@ -47,7 +47,7 @@ const HGGSpan =
 <span>
   <a href="https://raddishradish.itch.io/hey-girlie" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/HeyGirlieGame" target="_blank"><button>Code on GitHub</button></a>
   <p></p>
-  A visual novel dating sim that encourages the player to pay attention, paralleling what the protagonist needs to work on in her relationships.
+  A visual novel dating sim that encourages the player to pay attention, paralleling what the protagonist needs to work on in her relationships. Developed for web, PC, and Mac using Unity and C#.
 
   <p>I served as <b>game director, designer, and engineer</b>, leading an international team of 52 creatives.  </p>
 
@@ -76,7 +76,7 @@ const DendoroSpan=
 <span>
   <a href="https://raddishradish.itch.io/quest-for-dendoro" target="_blank"><button>Play on itch.io</button></a> <a href="https://github.com/rh5140/questForDendoro" target="_blank"><button>Code on GitHub</button></a>
   <p></p>
-  A 2.5D action-adventure RPG developed with and for 4th and 5th grade students, featuring light customization, puzzles, and combat.
+  A 2.5D action-adventure RPG developed with and for 4th and 5th grade students, featuring light customization, puzzles, and combat. Developed for web (mobile-compatible) in Unity with C#.
   <p>I was a <b>producer, programmer, and designer</b> for the project.</p>
   
   <p> <Link to="/qfd"><button>Learn more!</button></Link>  </p>
