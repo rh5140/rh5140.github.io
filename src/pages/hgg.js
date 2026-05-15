@@ -65,7 +65,7 @@ const HggPage = () => {
                 duration="September 2024 - June 2025 (9 months)"
                 status="Released May 2025, received 10k plays + downloads in first week"
                 links={HggLinks}
-                video="https://www.youtube.com/embed/lMwe61wfgSU"
+                video="https://www.youtube.com/embed/43j7vcrzCJI"
                 roles="Game Director, Game Designer, & Engineer"
                 contributions={HggContributions}>
       </GameInfo>
