@@ -52,7 +52,7 @@ const HGGSpan =
 
   <p>I served as <b>game director, designer, and engineer</b>, leading an international team of 52 creatives.  </p>
 
-  <p>**This is a <i>Fantasy High</i> fan project unaffiliated with Dimension 20 or Dropout.**</p>
+  <p><b><a href="https://www.critawards.org/">CRIT Awards</a> 2026 Finalist for Best Fan Art</b>. This is a <i>Fantasy High</i> fan project unaffiliated with Dimension 20 or Dropout.</p>
 
   <p> <Link to="/hgg"><button>Learn more!</button></Link>  </p>
 </span>
