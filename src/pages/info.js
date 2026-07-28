@@ -16,6 +16,12 @@ const stringSpan =
     <li>B.S. in Computer Science, <a href="https://www.cs.ucla.edu/" target="_blank">University of California, Los Angeles</a> (2020-2024)</li>
 
   </ul>
+  
+  <h2>Speaking</h2>
+  <ul>
+    <li>Connecting with iPad Babies: Designing With and For Today's Pre-Teens, <a href="https://www.gamedevsofcolor.org">Game Devs of Color Expo</a> (September 2026)</li>
+    <li>Player-Centered Design, <a href="https://gameheadsoakland.org" target="_blank">Gameheads</a> (May 2026)</li>
+  </ul>
 
   <h2>Volunteering</h2>
   <ul>
@@ -35,7 +41,7 @@ const stringSpan =
   </ul>
 
   <h2>Currently playing</h2>
-  <p><i>Teamfight Tactics</i> (peak rank Master), <i>Arknights</i>, <i>Sorry We're Closed</i>, <i>Cabernet</i></p>
+  <p><i>Teamfight Tactics</i> (Master S16, S17), <i>Guildrun</i> demo, <i>of the Devil</i>, <i>Deltarune</i></p>
 
 </span>
 

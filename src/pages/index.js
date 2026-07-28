@@ -9,6 +9,7 @@ import HGGGif from '../images/HGG_Gif_Crop.gif';
 import MeowsteriesImage from '../images/Meowsteries.gif';
 import OndineGif from '../images/Ondine.gif';
 import DendoroGif from '../images/QfdGif.gif';
+import FishyMissileImage from '../images/FishyMissile.png';
 
 const GoldLiningSpan =
 <span>
@@ -98,6 +99,23 @@ const GoodWorkSpan=
 
 const GoodWorkAlt = "A gameplay gif of menial point-and-click tasks (checking off reports, making coffee, sending emails, downloading files) in a dreary office environment"
 
+
+const FishyMissileSpan =
+<span>
+  <a href="https://play.google.com/store/apps/details?id=com.MassDiGI.CarpybarasGame" target="_blank"><button>Play on Android</button></a>  <a href="https://apps.apple.com/us/app/fishy-missile/id6778155374" target="_blank"><button>Play on iOS</button></a> <p></p>
+  A comically evil fishing game about collecting scrap to blow up the moon! 
+
+  <p>As a <b>Lead Programmer Intern</b> for <a href="https://massdigi.org/">MassDigi</a> from May - July 2026, I...
+    <ul>
+      <li>Developed and tuned tilt controls with per-session calibration, allowing play from any position (most tilt-based games don't work when you lie on your side!)</li>
+      <li>Implemented gameplay features like unlockable cinematics and content like scrap, fish, hazards, settings, and UI</li>
+      <li>Performed code reviews with Plastic SCM, maintained tech Kanban board on Miro, and conducted playtests with target audience of children 9+</li>
+    </ul>
+  </p>
+
+  {/* <p><a href="https://docs.google.com/document/d/1JqpcJSnOUhlze6JawpeUvXu1F7WdcI7cqsAE2avdZpE/edit?tab=t.0" target="_blank"><button>Learn more!</button></a></p> */}
+</span>
+
 const GamedevPage = () => {
   return (
     <Layout pageTitle="Game Design & Development">
@@ -105,9 +123,11 @@ const GamedevPage = () => {
       <p></p>
       <InfoCard image={DendoroGif} alt={DendoroAlt} text={DendoroSpan} title="Quest for Dendoro"></InfoCard>
       <p></p>
+      <InfoCard image={FishyMissileImage} alt={DendoroAlt} text={FishyMissileSpan} title="Fishy Missile"></InfoCard>
+      <p></p>
       <InfoCard image={GoodWorkGif} alt={GoodWorkAlt} text={GoodWorkSpan} title="Keep Up the Good Work!"></InfoCard>
       <p></p>
-      <InfoCard image={OndineGif} alt={OndineAlt} text={OndineSpan} title="Ondine: Prototype"></InfoCard>
+      {/* <InfoCard image={OndineGif} alt={OndineAlt} text={OndineSpan} title="Ondine: Prototype"></InfoCard> */}
       {/* <InfoCard image={MeowsteriesImage} alt={MeowsteriesAlt} text={MeowsteriesSpan} title="The Many Meow-steries of Tiramisu Apartments"></InfoCard> */}
       <p></p>
       <InfoCard image={GoldLiningTrailer} alt={GoldLiningAlt} text={GoldLiningSpan} title="Gold Lining (Cancelled)"></InfoCard>
