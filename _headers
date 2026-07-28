@@ -7,67 +7,67 @@
   Referrer-Policy: same-origin
 /static/qfd-2-ee1854f05d35fa495ef2402f14b51350.png
   Cache-Control: public, max-age=31536000, immutable
+/static/qfd-1-6890eaab679185b9ba7fe4ffad767255.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/qfd-3-6a4df6903051fd79ed47337ec5eed175.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/qfd-5-5b7310d0394bd46c2fc518aac5a0bfb9.png
+  Cache-Control: public, max-age=31536000, immutable
 /static/qfd-4-df38b13fbacf4f6a73e197d16a32a353.png
   Cache-Control: public, max-age=31536000, immutable
 /static/qfd-6-83f2a963ac7fbfba49cab73470465c24.png
   Cache-Control: public, max-age=31536000, immutable
-/static/qfd-5-5b7310d0394bd46c2fc518aac5a0bfb9.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/qfd-1-6890eaab679185b9ba7fe4ffad767255.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/SelfPortrait-9d48d76465ce6a005fee2e88106dd2af.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/qfd-3-6a4df6903051fd79ed47337ec5eed175.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/pkmn_art-594bf760999249277630651fe95a76d3.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/MAGICAL_Mascot_Design_Guide_LightMode-381d4009952ee6866e1a0f3be33f22dd.jpg
-  Cache-Control: public, max-age=31536000, immutable
-/static/PMT-31747fca4ac05e63821718d40bef6b5d.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/HggHintsCopy-c379dbd4881e6c2f58fd0549078b8333.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/typing-3d1a98837ef69ea6c3eb575c432f0505.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/HggLoop-0ea0602e220764d89bfe658d8e85f198.png
+/static/174a-67c4c763737e9725ee3216d58c715009.gif
   Cache-Control: public, max-age=31536000, immutable
 /static/FizzBuzz-bea9bec639d741ce16c458be9a2e92d8.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/HintExample-01ff500f75134a9b0236919a6c013e6e.png
+/static/174c-2db084ca2e5817fcdc5dd0c051e44d9e.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/radish_crop-5438cdc419788a6d69ce2681aee646fd.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/Plate-00b41bdbc8f9925c04e8b7bc1976552b.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/Tut2-5b6486f07caeb04a3b937961ce7827fd.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/HintUI-0ea245242b743e3f62b450841fcf94cc.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/Tut3-b934858f87b77c5303e86a49d327e1d8.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/Tut1-4fa232f7e76abf49e938ecb82954418a.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/174a-67c4c763737e9725ee3216d58c715009.gif
+/static/MAGICAL_Mascot_Design_Guide_LightMode-381d4009952ee6866e1a0f3be33f22dd.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/nebulosus-dd8d1ff5d1a9dbfa5ece6024733eece0.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/Meowsteries-788e5153e37157cbe6f0fd50196c28d9.gif
+/static/Plate-00b41bdbc8f9925c04e8b7bc1976552b.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/GoodWorkGif-6ee4bb6a62c9c4f1f2996e0cda306da4.gif
+/static/pkmn_art-594bf760999249277630651fe95a76d3.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/FishyMissile-2322da62e50500a75025c57e481713fa.png
+/static/PMT-31747fca4ac05e63821718d40bef6b5d.png
   Cache-Control: public, max-age=31536000, immutable
-/static/174c-2db084ca2e5817fcdc5dd0c051e44d9e.gif
+/static/radish_crop-5438cdc419788a6d69ce2681aee646fd.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/WeeklyUI_Layout_2-2f64b75e6d82e2b8beeedd92d7dcb1a1.png
+/static/SelfPortrait-9d48d76465ce6a005fee2e88106dd2af.gif
   Cache-Control: public, max-age=31536000, immutable
-/static/HGG_Gif_Crop-9c3e3d13fdffd4c9052944ef57bd808d.gif
-  Cache-Control: public, max-age=31536000, immutable
-/static/Ondine-1b5c379d182b56590ca63e6285ba777b.gif
+/static/typing-3d1a98837ef69ea6c3eb575c432f0505.gif
   Cache-Control: public, max-age=31536000, immutable
 /static/GoldLiningTrailer-ddc8d6259e9ae0c5bf087897e2c229eb.gif
   Cache-Control: public, max-age=31536000, immutable
+/static/GoodWorkGif-6ee4bb6a62c9c4f1f2996e0cda306da4.gif
+  Cache-Control: public, max-age=31536000, immutable
+/static/HGG_Gif_Crop-9c3e3d13fdffd4c9052944ef57bd808d.gif
+  Cache-Control: public, max-age=31536000, immutable
+/static/Meowsteries-788e5153e37157cbe6f0fd50196c28d9.gif
+  Cache-Control: public, max-age=31536000, immutable
 /static/QfdGif-d3e9c0a31b0bc7b7650a89248b231848.gif
+  Cache-Control: public, max-age=31536000, immutable
+/static/Ondine-1b5c379d182b56590ca63e6285ba777b.gif
+  Cache-Control: public, max-age=31536000, immutable
+/static/HggHintsCopy-c379dbd4881e6c2f58fd0549078b8333.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/HggLoop-0ea0602e220764d89bfe658d8e85f198.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/HintExample-01ff500f75134a9b0236919a6c013e6e.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/HintUI-0ea245242b743e3f62b450841fcf94cc.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/Tut1-4fa232f7e76abf49e938ecb82954418a.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/Tut2-5b6486f07caeb04a3b937961ce7827fd.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/Tut3-b934858f87b77c5303e86a49d327e1d8.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/WeeklyUI_Layout_2-2f64b75e6d82e2b8beeedd92d7dcb1a1.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/FishyMissile-c76973bb782534010511de8a953f35d9.png
   Cache-Control: public, max-age=31536000, immutable
 /454-884db8ecd0a852aeefd0.js
   Cache-Control: public, max-age=31536000, immutable
@@ -77,15 +77,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-aef8eef7640d4e79d9cc.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-701d7739d8d26f049297.js
-  Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-57282334ad12c500d015.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-art-js-25cc48428bde5a9225c1.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-hgg-js-a5bfa71321c27ab4f46e.js
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-f3cf55a2969ad2867359.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-info-js-61f6d94165b841e887b9.js
   Cache-Control: public, max-age=31536000, immutable
@@ -97,15 +93,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-aef8eef7640d4e79d9cc.js.map
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-701d7739d8d26f049297.js.map
-  Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-57282334ad12c500d015.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-art-js-25cc48428bde5a9225c1.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-hgg-js-a5bfa71321c27ab4f46e.js.map
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-f3cf55a2969ad2867359.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-info-js-61f6d94165b841e887b9.js.map
   Cache-Control: public, max-age=31536000, immutable
@@ -114,6 +106,18 @@
 /component---src-pages-qfd-js-9366e02c4f2790f202a1.js.map
   Cache-Control: public, max-age=31536000, immutable
 /framework-07ba12d9db5aa725af3b.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-f22ef7addf0fba6ecedf.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-bd4bdc91bbd0b3b52a00.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-f22ef7addf0fba6ecedf.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-bd4bdc91bbd0b3b52a00.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-f3cf55a2969ad2867359.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-701d7739d8d26f049297.js.map
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
