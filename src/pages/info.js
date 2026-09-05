@@ -26,6 +26,7 @@ const stringSpan =
   <h2>Volunteering</h2>
   <ul>
     <li>Community Coordinator, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2026-present)</li>
+    <li>Design & Social Media Volunteer, <a href="https://www.twitch.tv/guardianangelgg" target="_blank">Guardian Angel League</a> (2026-present)</li>
     <li>PR Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</li>
     <li>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2025)</li>
     <li>Conference Associate, <a href="https://gdconf.com/" target="_blank">Game Developers Conference</a> (2022, 2024)</li>
@@ -41,7 +42,7 @@ const stringSpan =
   </ul>
 
   <h2>Currently playing</h2>
-  <p><i>Teamfight Tactics</i> (Master S16, S17), <i>Guildrun</i> demo, <i>of the Devil</i>, <i>Deltarune</i></p>
+  <p><i>Teamfight Tactics</i> (Master S16, Grandmaster S17), <i>Guildrun</i> demo, <i>of the Devil</i>, <i>Deltarune</i></p>
 
 </span>
 

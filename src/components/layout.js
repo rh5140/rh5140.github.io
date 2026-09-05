@@ -34,6 +34,11 @@ const Layout = ({ pageTitle, children }) => {
                             <button className={linkButton}>Other</button>
                     </Link>  
                 </div>
+                <div className={navLinkItem}>
+                    <Link to="https://drive.google.com/file/d/1AywhoKJyE7Q80fgQprCYgbIw7CPfCLoU/view" className={navLinkText}>
+                            <button className={linkButton}>Resume</button>
+                    </Link>  
+                </div>
             </nav>
         </header>
 
