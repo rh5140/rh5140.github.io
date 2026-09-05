@@ -21,6 +21,7 @@ const stringSpan =
   <ul>
     <li>Connecting with iPad Babies: Designing With and For Today's Pre-Teens, <a href="https://www.gamedevsofcolor.org">Game Devs of Color Expo</a> (September 2026)</li>
     <li>Player-Centered Design, <a href="https://gameheadsoakland.org" target="_blank">Gameheads</a> (May 2026)</li>
+    <li>Making it From Scratch: A Guide to Self-Learning Game Development, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (July 2025)</li>
   </ul>
 
   <h2>Volunteering</h2>
@@ -28,7 +29,6 @@ const stringSpan =
     <li>Community Coordinator, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2026-present)</li>
     <li>Design & Social Media Volunteer, <a href="https://www.twitch.tv/guardianangelgg" target="_blank">Guardian Angel League</a> (2026-present)</li>
     <li>PR Officer, <a href="https://sgda.io/" target="_blank">SGDA (Student Games Developers' Alliance)</a> (2025-present)</li>
-    <li>Mascot Designer & Speaker, <a href="https://www.linkedin.com/company/magical-in-gaming" target="_blank">MAGICAL in Gaming</a> (2025)</li>
     <li>Conference Associate, <a href="https://gdconf.com/" target="_blank">Game Developers Conference</a> (2022, 2024)</li>
     <li>Game Development Club President, <a href="https://studio.uclaacm.com/" target="_blank">ACM Studio at UCLA</a> (2022-2023)</li>
   </ul>
